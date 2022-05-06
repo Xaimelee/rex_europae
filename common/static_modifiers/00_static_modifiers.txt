@@ -888,7 +888,7 @@ occupied_imperial = {
 }
 
 emperor_revoked_reform =  {
-	diplomatic_reputation = -3
+	#diplomatic_reputation = -3
 }
 
 num_of_marriages = {
