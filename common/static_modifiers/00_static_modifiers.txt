@@ -676,24 +676,38 @@ inflation = {
 }
 
 bankruptcy = {
+	# Old
+	# interest = 5
+	# land_morale = -0.5
+	# naval_morale = -0.5
+	# reinforce_speed = -0.25					#Slower reinforce
+	# bureaucrats_influence = 0.25
+	# mr_guilds_influence = 0.25
+	# manpower_recovery_speed = -1.0
+	# sailors_recovery_speed = -1.0
+	# advisor_cost = 0.5
+	# monthly_fervor_increase = -1
+	# global_autonomy = 0.05
+	# global_institution_spread = -0.50
+	# monthly_militarized_society = -0.5
+	# yearly_absolutism = -2.0
+	# technology_cost = 0.5
+	# idea_cost = 0.5
+	# imperial_mandate = -0.1
+	# great_project_upgrade_cost = 0.5
+	# New
 	interest = 5
 	land_morale = -0.5
 	naval_morale = -0.5
-	reinforce_speed = -0.25					#Slower reinforce
-	bureaucrats_influence = 0.25
-	mr_guilds_influence = 0.25
+	discipline = -0.05
+	reinforce_speed = -1
 	manpower_recovery_speed = -1.0
 	sailors_recovery_speed = -1.0
-	advisor_cost = 0.5
-	monthly_fervor_increase = -1
-	global_autonomy = 0.05
-	global_institution_spread = -0.50
-	monthly_militarized_society = -0.5
-	yearly_absolutism = -2.0
-	technology_cost = 0.5
-	idea_cost = 0.5
-	imperial_mandate = -0.1
-	great_project_upgrade_cost = 0.5
+	global_institution_spread = -1.0
+	defensiveness = -1.0
+	global_regiment_recruit_speed = 1.0
+	global_ship_recruit_speed = 1.0
+	inflation_action_cost = 1.0
 }
 
 
