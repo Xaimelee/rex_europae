@@ -1,0 +1,56 @@
+#653 - Lanao
+
+
+
+culture = filipino
+
+religion = animism
+
+capital = "Marawi"
+
+trade_goods = spices
+
+is_city = yes
+
+hre = no
+
+base_tax = 3 
+
+base_production = 3
+
+base_manpower = 2
+
+owner = --- #REXEUROPAEWIPE = MGD
+
+controller = --- #REXEUROPAEWIPE = MGD
+
+add_core = --- #REXEUROPAEWIPE = MGD
+
+add_core = --- #REXEUROPAEWIPE = LNO
+
+discovered_by = chinese
+
+
+
+1450.1.1 = { religion = sunni }
+
+1520.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = LNO
+
+	controller = --- #REXEUROPAEWIPE = LNO
+
+} #Sultanates of Lanao
+
+1521.1.1 = { discovered_by = SPA }
+
+1639.4.1 = {
+
+	owner = --- #REXEUROPAEWIPE = SPA
+
+	controller = --- #REXEUROPAEWIPE = SPA
+
+	add_core = --- #REXEUROPAEWIPE = SPA
+
+} # Conquest by Spain
+

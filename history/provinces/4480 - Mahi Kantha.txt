@@ -1,0 +1,151 @@
+#2056 - Rewa Kantha
+
+
+
+owner = --- #REXEUROPAEWIPE = IDR
+
+controller = --- #REXEUROPAEWIPE = IDR
+
+culture = gujarati
+
+religion = hinduism
+
+capital = "Idar"
+
+trade_goods = cloth
+
+hre = no
+
+base_tax = 1
+
+base_production = 1
+
+base_manpower = 1
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = IDR
+
+discovered_by = indian
+
+discovered_by = muslim 
+
+discovered_by = ottoman
+
+discovered_by = nomad_group
+
+discovered_by = chinese
+
+
+
+
+
+1515.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = GUJ
+
+	controller = --- #REXEUROPAEWIPE = GUJ
+
+	add_core = --- #REXEUROPAEWIPE = GUJ
+
+} # Annexed by Gujarat
+
+1498.1.1 = { discovered_by = POR }
+
+1519.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MER
+
+	controller = --- #REXEUROPAEWIPE = MER
+
+	add_core = --- #REXEUROPAEWIPE = MER
+
+}
+
+1520.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = GUJ
+
+	controller = --- #REXEUROPAEWIPE = GUJ
+
+	remove_core = MER
+
+}
+
+1522.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = IDR
+
+	controller = --- #REXEUROPAEWIPE = IDR
+
+}
+
+1656.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MUG
+
+	controller = --- #REXEUROPAEWIPE = MUG
+
+	add_core = --- #REXEUROPAEWIPE = MUG
+
+}
+
+1658.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = IDR
+
+	controller = --- #REXEUROPAEWIPE = IDR
+
+	remove_core = MUG
+
+}
+
+1664.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MUG
+
+	controller = --- #REXEUROPAEWIPE = MUG
+
+	add_core = --- #REXEUROPAEWIPE = MUG
+
+}
+
+1679.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = IDR
+
+	controller = --- #REXEUROPAEWIPE = IDR
+
+	remove_core = MUG
+
+}
+
+1680.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MUG
+
+	controller = --- #REXEUROPAEWIPE = MUG
+
+	add_core = --- #REXEUROPAEWIPE = MUG
+
+}
+
+1718.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = IDR
+
+	controller = --- #REXEUROPAEWIPE = IDR
+
+	remove_core = MUG
+
+}
+
+1813.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = GBR
+
+	controller = --- #REXEUROPAEWIPE = GBR
+
+	add_core = --- #REXEUROPAEWIPE = GBR
+
+}

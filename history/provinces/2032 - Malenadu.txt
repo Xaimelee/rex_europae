@@ -1,0 +1,94 @@
+#2032 - Malenadu
+
+
+
+owner = --- #REXEUROPAEWIPE = VIJ
+
+controller = --- #REXEUROPAEWIPE = VIJ
+
+culture = kannada
+
+religion = hinduism
+
+capital = "Ikkeri"
+
+trade_goods = coffee
+
+hre = no
+
+base_tax = 2 
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = VIJ
+
+add_core = --- #REXEUROPAEWIPE = KLN
+
+add_rajputs_or_marathas_or_nobles_effect = yes
+
+discovered_by = indian
+
+discovered_by = nomad_group
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+discovered_by = chinese
+
+
+
+1498.1.1 = { discovered_by = POR }
+
+
+
+1565.7.1 = {
+
+	owner = --- #REXEUROPAEWIPE = KLN
+
+	controller = --- #REXEUROPAEWIPE = KLN
+
+	remove_core = VIJ
+
+} #Independent Nayaka after Talikota
+
+1573.1.1 = { controller = --- #REXEUROPAEWIPE = BIJ } #Bijapuri expansion
+
+1574.1.1 = { controller = --- #REXEUROPAEWIPE = KLN }
+
+1660.1.1 = { owner = --- #REXEUROPAEWIPE = BIJ controller = --- #REXEUROPAEWIPE = BIJ }
+
+1685.1.1 = { controller = --- #REXEUROPAEWIPE = MUG } # Conquered by the Mughal emperor Aurangzeb
+
+1686.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MYS	#Beaten by the mughals and sold to Mysore
+
+	controller = --- #REXEUROPAEWIPE = MYS
+
+	add_core = --- #REXEUROPAEWIPE = MYS
+
+}
+
+1756.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MAR
+
+	controller = --- #REXEUROPAEWIPE = MAR
+
+	add_core = --- #REXEUROPAEWIPE = MAR
+
+} # To Marathas
+
+1763.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MYS	
+
+	controller = --- #REXEUROPAEWIPE = MYS
+
+}
+

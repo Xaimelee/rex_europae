@@ -1,0 +1,59 @@
+#1825 - Aki
+
+
+
+owner = --- #REXEUROPAEWIPE = HSK
+
+controller = --- #REXEUROPAEWIPE = HSK
+
+culture = japanese
+
+religion = shinto
+
+capital = "Tomo"
+
+trade_goods = grain
+
+hre = no
+
+base_tax = 4
+
+base_manpower = 3
+
+base_production = 4
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = HSK
+
+add_core = --- #REXEUROPAEWIPE = MRI
+
+discovered_by = chinese
+
+discovered_by = MCH
+
+discovered_by = KHA
+
+discovered_by = OIR
+
+discovered_by = QNG
+
+
+
+1420.1.1 = { add_core = --- #REXEUROPAEWIPE = OUC }
+
+1470.1.1 = { owner = --- #REXEUROPAEWIPE = OUC controller = --- #REXEUROPAEWIPE = OUC }
+
+1520.1.1 = { add_core = --- #REXEUROPAEWIPE = AMA }
+
+1525.1.1 = { owner = --- #REXEUROPAEWIPE = MRI controller = --- #REXEUROPAEWIPE = MRI remove_core = OUC remove_core = AMA remove_core = HSK }
+
+1525.1.1 = { fort_15th = yes } # Yoshida Koriyama Castle, the capital of the Mori clan
+
+1525.1.1 = { capital = "Koriyama" }
+
+1542.1.1 = { discovered_by = POR }
+
+1599.1.1 = { capital = "Hiroshima" }
+
+1600.10.21 = { owner = --- #REXEUROPAEWIPE = TKG controller = --- #REXEUROPAEWIPE = TKG add_core = --- #REXEUROPAEWIPE = TKG }

@@ -1,0 +1,124 @@
+#2228 - Maymana
+
+
+
+owner = --- #REXEUROPAEWIPE = TIM
+
+controller = --- #REXEUROPAEWIPE = TIM
+
+culture = afghani
+
+religion = sunni
+
+capital = "Maymana"
+
+trade_goods = cotton
+
+hre = no
+
+base_tax = 3 
+
+base_production = 3
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = TIM
+
+add_core = --- #REXEUROPAEWIPE = AFG
+
+discovered_by = KAS
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+discovered_by = indian
+
+discovered_by = nomad_group
+
+
+
+1449.2.1 = { #Conquered by Babur bin Baysunkur
+
+	owner = --- #REXEUROPAEWIPE = KHO
+
+	controller = --- #REXEUROPAEWIPE = KHO
+
+	remove_core = TIM
+
+}
+
+1457.7.19 = { controller = --- #REXEUROPAEWIPE = TIM }
+
+1457.8.30 = { owner = --- #REXEUROPAEWIPE = TIM add_core = --- #REXEUROPAEWIPE = TIM remove_core = KHO }
+
+1502.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = KHO
+
+	controller = --- #REXEUROPAEWIPE = KHO
+
+	add_core = --- #REXEUROPAEWIPE = KHO
+
+} # The end of the Timurids in Samarkand
+
+1507.7.1 = {
+
+	owner = --- #REXEUROPAEWIPE = TIM
+
+	controller = --- #REXEUROPAEWIPE = TIM
+
+	add_core = --- #REXEUROPAEWIPE = TIM
+
+} # Kabul falls to Babur
+
+1526.4.21 = {
+
+	owner = --- #REXEUROPAEWIPE = MUG
+
+	controller = --- #REXEUROPAEWIPE = MUG
+
+	add_core = --- #REXEUROPAEWIPE = MUG
+
+	remove_core = TIM 
+
+} #Battle of Panipat
+
+1566.1.1 = { revolt = { type = nationalist_rebels size = 0 name = "Hakim Timurid's Faction" } controller = --- #REXEUROPAEWIPE = REB }	#Hakim, should be pretender that declares independence
+
+1566.6.1 = { revolt = { } owner = --- #REXEUROPAEWIPE = AFG controller = --- #REXEUROPAEWIPE = AFG } #Independent of the Mughal empire
+
+1585.1.1 = { controller = --- #REXEUROPAEWIPE = BUK owner = --- #REXEUROPAEWIPE = BUK add_core = --- #REXEUROPAEWIPE = BUK remove_core = MUG }	# Man Singh occupies Kabulistan after death of Mirza Hakim, Balkh generally falls under Uzbekh controll after this point
+
+
+
+
+
+
+
+1600.1.1 = { discovered_by = TUR }
+
+1673.1.1 = { discovered_by = ENG }
+
+1677.1.1 = { discovered_by = FRA }
+
+1707.5.12 = { discovered_by = GBR }
+
+
+
+1737.1.1 = { owner = --- #REXEUROPAEWIPE = PER controller = --- #REXEUROPAEWIPE = PER } #Conquered by Nadir Shah
+
+1748.1.1 = { owner = --- #REXEUROPAEWIPE = BUK controller = --- #REXEUROPAEWIPE = BUK }
+
+1751.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = AFG
+
+	controller = --- #REXEUROPAEWIPE = AFG
+
+} # Added to Afghan Empire
+
+
+

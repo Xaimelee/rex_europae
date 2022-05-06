@@ -1,0 +1,98 @@
+#2026 - Tanjore 
+
+
+
+owner = --- #REXEUROPAEWIPE = VIJ
+
+controller = --- #REXEUROPAEWIPE = VIJ
+
+culture = tamil
+
+religion = hinduism
+
+capital = "Thanjavur"
+
+trade_goods = cloth
+
+hre = no
+
+base_tax = 4
+
+base_production = 4
+
+base_manpower = 2
+
+is_city = yes
+
+add_brahmins_or_church_effect = yes
+
+add_core = --- #REXEUROPAEWIPE = VIJ
+
+add_core = --- #REXEUROPAEWIPE = MAD
+
+add_core = --- #REXEUROPAEWIPE = TNJ
+
+discovered_by = east_african
+
+discovered_by = indian
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+discovered_by = nomad_group
+
+discovered_by = chinese
+
+add_local_autonomy = 25
+
+extra_cost = 16
+
+center_of_trade = 2
+
+
+
+1498.1.1 = { discovered_by = POR }
+
+1543.1.1 = { controller = --- #REXEUROPAEWIPE = REB revolt = { size = 0 type = nationalist_rebels } }
+
+1550.1.1 = { controller = --- #REXEUROPAEWIPE = VIJ revolt = { } }
+
+1565.7.1 = { owner = --- #REXEUROPAEWIPE = TNJ controller = --- #REXEUROPAEWIPE = TNJ } # The Vijayanagar empire collapses
+
+1662.1.1 = {
+
+	controller = --- #REXEUROPAEWIPE = BIJ
+
+	owner = --- #REXEUROPAEWIPE = BIJ
+
+	add_core = --- #REXEUROPAEWIPE = BIJ
+
+}
+
+1678.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MAR
+
+	controller = --- #REXEUROPAEWIPE = MAR
+
+	add_core = --- #REXEUROPAEWIPE = MAR
+
+} #Venkaji assumes independence
+
+1694.1.1 = { controller = --- #REXEUROPAEWIPE = MUG }
+
+1707.1.1 = { controller = --- #REXEUROPAEWIPE = MAR }
+
+1801.1.1 = {
+
+	controller = --- #REXEUROPAEWIPE = GBR
+
+	owner = --- #REXEUROPAEWIPE = GBR
+
+	add_core = --- #REXEUROPAEWIPE = GBR
+
+	capital = Tanjore
+
+}
+

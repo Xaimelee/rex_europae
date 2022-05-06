@@ -1,0 +1,168 @@
+#4499 - Bareily
+
+
+
+owner = --- #REXEUROPAEWIPE = DLH
+
+controller = --- #REXEUROPAEWIPE = DLH
+
+culture = kanauji
+
+religion = hinduism
+
+capital = "Bareily"
+
+trade_goods = cotton #Calicoes
+
+hre = no
+
+base_tax = 2
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = DLH
+
+add_core = --- #REXEUROPAEWIPE = RMP
+
+add_core = --- #REXEUROPAEWIPE = JNP
+
+discovered_by = indian
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+discovered_by = nomad_group
+
+discovered_by = chinese
+
+
+
+1437.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = JNP
+
+	controller = --- #REXEUROPAEWIPE = JNP
+
+}
+
+1452.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = DLH
+
+	controller = --- #REXEUROPAEWIPE = DLH
+
+}
+
+1526.4.1 = { controller = --- #REXEUROPAEWIPE = TIM } #Conquered by Babur
+
+1526.4.21 = {
+
+	owner = --- #REXEUROPAEWIPE = MUG
+
+	controller = --- #REXEUROPAEWIPE = MUG
+
+	add_core = --- #REXEUROPAEWIPE = MUG
+
+	remove_core = DLH
+
+} # Battle of Panipat
+
+1540.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = BNG
+
+	controller = --- #REXEUROPAEWIPE = BNG
+
+	add_core = --- #REXEUROPAEWIPE = BNG
+
+} # Sher Shah Conquers Delhi
+
+1550.1.1 = { capital = "Rampur" }
+
+1553.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = DLH
+
+	controller = --- #REXEUROPAEWIPE = DLH
+
+	remove_core = BNG
+
+} #Death of Islam Shah Sur, Suri empire split
+
+1555.7.23 = {
+
+	owner = --- #REXEUROPAEWIPE = MUG
+
+	controller = --- #REXEUROPAEWIPE = MUG
+
+} # Humayun Returns
+
+1565.1.1 = { controller = --- #REXEUROPAEWIPE = REB revolt = { type = noble_rebels } }	#Revolt of Uzbek commanders
+
+1566.6.1 = { controller = --- #REXEUROPAEWIPE = MUG revolt = { } }
+
+
+
+
+
+
+
+1690.1.1 = { discovered_by = ENG }
+
+1707.5.12 = { discovered_by = GBR }
+
+
+
+1721.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = RMP
+
+	controller = --- #REXEUROPAEWIPE = RMP
+
+	remove_core = MUG
+
+} # Rohilkandh independent
+
+1757.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = ODH
+
+	controller = --- #REXEUROPAEWIPE = ODH
+
+	revolt = { type = nationalist_rebels size = 2 }
+
+} # Oudh
+
+1761.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = RMP
+
+	controller = --- #REXEUROPAEWIPE = RMP
+
+	revolt = { }
+
+} # Rohilkandh independent
+
+1794.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = ODH
+
+	controller = --- #REXEUROPAEWIPE = ODH
+
+} # Oudh
+
+1801.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = GBR
+
+	controller = --- #REXEUROPAEWIPE = GBR
+
+	add_core = --- #REXEUROPAEWIPE = GBR
+
+} # Great Britain
+

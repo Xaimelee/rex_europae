@@ -1,0 +1,65 @@
+# 2137 - Daming
+
+
+
+owner = --- #REXEUROPAEWIPE = MNG
+
+controller = --- #REXEUROPAEWIPE = MNG
+
+add_core = --- #REXEUROPAEWIPE = MNG
+
+culture = chihan
+
+religion = confucianism
+
+capital = "Daming"
+
+trade_goods = grain
+
+hre = no
+
+base_tax = 3 
+
+base_production = 3
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = YAN
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+1608.1.1 = { discovered_by = SPA }
+
+
+
+1644.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CSH
+
+	controller = --- #REXEUROPAEWIPE = CSH
+
+	add_core = --- #REXEUROPAEWIPE = CSH
+
+} # Li Zicheng's Shun empire
+
+1644.11.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}

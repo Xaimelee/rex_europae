@@ -1,0 +1,47 @@
+#1832 - Yamato
+
+
+
+owner = --- #REXEUROPAEWIPE = TTI
+
+controller = --- #REXEUROPAEWIPE = TTI
+
+culture = japanese
+
+religion = shinto
+
+capital = "Nara"
+
+trade_goods = tea
+
+hre = no
+
+base_tax = 4
+
+base_manpower = 2
+
+base_production = 3
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = TTI
+
+discovered_by = chinese
+
+discovered_by = MCH
+
+discovered_by = KHA
+
+discovered_by = OIR
+
+discovered_by = QNG
+
+
+
+1542.1.1 = { discovered_by = POR }
+
+
+
+1585.8.1 = { owner = --- #REXEUROPAEWIPE = ODA controller = --- #REXEUROPAEWIPE = ODA add_core = --- #REXEUROPAEWIPE = ODA remove_core = TTI } #The Tsutsui clan moved to Iga
+
+1600.10.21 = { owner = --- #REXEUROPAEWIPE = TKG controller = --- #REXEUROPAEWIPE = TKG add_core = --- #REXEUROPAEWIPE = TKG remove_core = ODA }

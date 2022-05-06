@@ -1,0 +1,48 @@
+#4227 - Daegu
+
+
+
+owner = --- #REXEUROPAEWIPE = KOR
+
+controller = --- #REXEUROPAEWIPE = KOR
+
+culture = korean
+
+religion = confucianism
+
+capital = "Jinju"
+
+trade_goods = paper
+
+hre = no
+
+base_tax = 4
+
+base_production = 3
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = KOR
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+1542.1.1 = { discovered_by = POR }
+
+1592.5.26 = { controller = --- #REXEUROPAEWIPE = ODA } # Japanese invasion - Siege of Busan
+
+1598.12.24 = { controller = --- #REXEUROPAEWIPE = KOR }
+
+1637.1.1 = { add_core = --- #REXEUROPAEWIPE = MNG } # Tributary of Qing China
+
+1644.1.1 = { add_core = --- #REXEUROPAEWIPE = MCH remove_core = MNG } # Part of the Manchu empire
+
+1645.7.1 = { add_core = --- #REXEUROPAEWIPE = QNG remove_core = MCH }
+
+1653.1.1 = { discovered_by = NED } # Hendrick Hamel
+

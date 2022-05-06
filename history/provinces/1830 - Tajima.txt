@@ -1,0 +1,58 @@
+#1830 - Tajima
+
+
+
+owner = --- #REXEUROPAEWIPE = YMN
+
+controller = --- #REXEUROPAEWIPE = YMN
+
+culture = japanese
+
+religion = shinto
+
+capital = "Tottori"
+
+trade_goods = grain
+
+hre = no
+
+base_tax = 2 
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = YMN
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = MCH
+
+discovered_by = KHA
+
+discovered_by = OIR
+
+discovered_by = QNG
+
+
+
+1542.1.1 = { discovered_by = POR }
+
+
+
+1569.1.1 = { add_core = --- #REXEUROPAEWIPE = ODA }
+
+1580.5.21 = { owner = --- #REXEUROPAEWIPE = ODA controller = --- #REXEUROPAEWIPE = ODA }
+
+1580.7.2 = { remove_core = YMN }
+
+1600.10.21 = { owner = --- #REXEUROPAEWIPE = TKG controller = --- #REXEUROPAEWIPE = TKG add_core = --- #REXEUROPAEWIPE = TKG remove_core = ODA }
+

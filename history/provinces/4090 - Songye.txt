@@ -1,0 +1,29 @@
+owner = --- #REXEUROPAEWIPE = KLD
+
+controller = --- #REXEUROPAEWIPE = KLD
+
+add_core = --- #REXEUROPAEWIPE = KLD
+
+culture = luba
+
+religion = shamanism #Fetishism
+
+capital = "Songye"
+
+trade_goods = grain
+
+hre = no
+
+base_tax = 1
+
+base_production = 1
+
+base_manpower = 1
+
+is_city = yes
+
+discovered_by = central_african
+
+
+
+1600.1.1 = { owner = --- #REXEUROPAEWIPE = LUB controller = --- #REXEUROPAEWIPE = LUB add_core = --- #REXEUROPAEWIPE = LUB }

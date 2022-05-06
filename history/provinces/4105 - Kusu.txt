@@ -1,0 +1,25 @@
+owner = --- #REXEUROPAEWIPE = LUB
+
+controller = --- #REXEUROPAEWIPE = LUB
+
+add_core = --- #REXEUROPAEWIPE = LUB
+
+culture = luba
+
+religion = shamanism #Fetishism
+
+capital = "Kusu"
+
+trade_goods = livestock
+
+hre = no
+
+base_tax = 2
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+discovered_by = central_african

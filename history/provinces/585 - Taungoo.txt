@@ -1,0 +1,66 @@
+#585 - Toungoo
+
+
+
+owner = --- #REXEUROPAEWIPE = TAU
+
+controller = --- #REXEUROPAEWIPE = TAU
+
+culture = burmese
+
+religion = buddhism
+
+capital = "Toungoo"
+
+trade_goods = chinaware
+
+hre = no
+
+base_tax = 5
+
+base_production = 5
+
+base_manpower = 4
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = TAU
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = indian
+
+
+
+1535.1.1 = { discovered_by = POR }
+
+
+
+1560.1.1 = { fort_15th = yes }
+
+1745.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = PEG
+
+	controller = --- #REXEUROPAEWIPE = PEG
+
+	add_core = --- #REXEUROPAEWIPE = PEG
+
+}
+
+1755.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = TAU
+
+	controller = --- #REXEUROPAEWIPE = TAU
+
+	remove_core = PEG
+
+}
+

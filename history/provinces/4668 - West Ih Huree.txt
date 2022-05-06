@@ -1,0 +1,72 @@
+owner = --- #REXEUROPAEWIPE = KHA
+
+controller = --- #REXEUROPAEWIPE = KHA
+
+add_core = --- #REXEUROPAEWIPE = KHA
+
+culture = khalkha
+
+religion = tengri_pagan_reformed
+
+capital = "Orkhon"
+
+trade_goods = fur
+
+hre = no
+
+base_tax = 1
+
+base_production = 1
+
+base_manpower = 2
+
+is_city = yes
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+1633.1.1 = { discovered_by = RUS } 
+
+
+
+1635.4.1 = {
+
+	owner = --- #REXEUROPAEWIPE = KLK
+
+	controller = --- #REXEUROPAEWIPE = KLK
+
+	add_core = --- #REXEUROPAEWIPE = KLK
+
+}
+
+1682.1.1 = { discovered_by = SPA } #Ferdinand Verbiest
+
+1688.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = ZUN
+
+	controller = --- #REXEUROPAEWIPE = ZUN
+
+}
+
+1697.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+} # Outer Mongolia intergrated into Qing
+
+1709.1.1 = { discovered_by = SPA }
+

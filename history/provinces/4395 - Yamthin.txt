@@ -1,0 +1,68 @@
+#4395 - Yamethin
+
+
+
+owner = --- #REXEUROPAEWIPE = AVA
+
+controller = --- #REXEUROPAEWIPE = AVA
+
+culture = burmese
+
+religion = buddhism
+
+capital = "Yamethin"
+
+trade_goods = ivory
+
+hre = no
+
+base_tax = 2 
+
+base_production = 3
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = AVA
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = indian
+
+
+
+
+
+1527.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = SST
+
+	controller = --- #REXEUROPAEWIPE = SST
+
+	add_core = --- #REXEUROPAEWIPE = SST
+
+	remove_core = AVA
+
+}
+
+1535.1.1 = { discovered_by = POR }
+
+1554.1.1 = { add_core = --- #REXEUROPAEWIPE = TAU }
+
+1555.1.22 = { controller = --- #REXEUROPAEWIPE = TAU }
+
+1563.4.1 = {	
+
+	owner = --- #REXEUROPAEWIPE = TAU
+
+	remove_core = SST
+
+}
+

@@ -1,0 +1,83 @@
+# 2161 - Limchow
+
+
+
+owner = --- #REXEUROPAEWIPE = MNG
+
+controller = --- #REXEUROPAEWIPE = MNG
+
+add_core = --- #REXEUROPAEWIPE = MNG
+
+culture = cantonese
+
+religion = confucianism
+
+capital = "Limchow"
+
+trade_goods = incense
+
+hre = no
+
+base_tax = 3 
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+discovered_by = indian
+
+
+
+1514.1.1 = { discovered_by = POR }
+
+1647.4.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}
+
+1648.4.15 = { 
+
+	controller = --- #REXEUROPAEWIPE = MNG 
+
+	owner = --- #REXEUROPAEWIPE = MNG
+
+}
+
+1651.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+}
+
+1662.4.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CZH
+
+	controller = --- #REXEUROPAEWIPE = CZH
+
+	add_core = --- #REXEUROPAEWIPE = CZH
+
+} # Three Feudatories
+
+1681.10.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}

@@ -1,0 +1,48 @@
+#2777 - Bardera
+
+
+
+owner = --- #REXEUROPAEWIPE = AJU
+
+controller = --- #REXEUROPAEWIPE = AJU
+
+add_core = --- #REXEUROPAEWIPE = AJU
+
+add_core = --- #REXEUROPAEWIPE = GLE
+
+culture = somali
+
+religion = sunni
+
+capital = "Baardheere"
+
+trade_goods = grain
+
+is_city = yes
+
+hre = no
+
+base_tax = 1 
+
+base_production = 1
+
+base_manpower = 1
+
+
+
+discovered_by = east_african
+
+discovered_by = indian
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+
+
+
+
+1550.1.1 = { discovered_by = TUR }
+
+1730.1.1 = { owner = --- #REXEUROPAEWIPE = GLE controller = --- #REXEUROPAEWIPE = GLE }
+

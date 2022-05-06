@@ -1,0 +1,77 @@
+# 2152 - Jianning
+
+
+
+owner = --- #REXEUROPAEWIPE = MNG
+
+controller = --- #REXEUROPAEWIPE = MNG
+
+add_core = --- #REXEUROPAEWIPE = MNG
+
+culture = chimin
+
+religion = confucianism
+
+capital = "Jianning"
+
+trade_goods = tea
+
+hre = no
+
+base_tax = 2 
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = MIN
+
+add_core = --- #REXEUROPAEWIPE = NNG
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+1595.1.1 = { discovered_by = SPA }
+
+
+
+1646.8.28 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}
+
+1662.4.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CZH
+
+	controller = --- #REXEUROPAEWIPE = CZH
+
+	add_core = --- #REXEUROPAEWIPE = CZH
+
+} # Three Feudatories
+
+1681.10.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}

@@ -1,0 +1,96 @@
+#582 - Mong Yang
+
+
+
+owner = --- #REXEUROPAEWIPE = MYA
+
+controller = --- #REXEUROPAEWIPE = MYA
+
+culture = shan
+
+religion = buddhism
+
+capital = "Mong Yang"
+
+trade_goods = copper
+
+hre = no
+
+base_tax = 3
+
+base_production = 3
+
+base_manpower = 3
+
+fort_15th = yes
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = MYA
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = indian
+
+
+
+
+
+1502.1.1 = {
+
+	controller = --- #REXEUROPAEWIPE = SST
+
+	owner = --- #REXEUROPAEWIPE = SST
+
+	add_core = --- #REXEUROPAEWIPE = SST
+
+	remove_core = MYA
+
+}
+
+1557.3.6 = { controller = --- #REXEUROPAEWIPE = TAU }
+
+1563.4.1 = { owner = --- #REXEUROPAEWIPE = TAU }
+
+1599.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = SST
+
+	controller = --- #REXEUROPAEWIPE = SST
+
+}
+
+1605.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = TAU
+
+	controller = --- #REXEUROPAEWIPE = TAU
+
+	add_core = --- #REXEUROPAEWIPE = TAU
+
+}
+
+1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+
+1752.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = SST
+
+	controller = --- #REXEUROPAEWIPE = SST
+
+}
+
+1754.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = TAU
+
+	controller = --- #REXEUROPAEWIPE = TAU
+
+}
+

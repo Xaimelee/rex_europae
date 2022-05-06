@@ -1,0 +1,136 @@
+#4428 - Mudgal
+
+
+
+owner = --- #REXEUROPAEWIPE = VIJ
+
+controller = --- #REXEUROPAEWIPE = VIJ
+
+culture = kannada
+
+religion = hinduism
+
+capital = "Mudgal"
+
+trade_goods = cloth
+
+hre = no
+
+base_tax = 4
+
+base_production = 4
+
+base_manpower = 3
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = BIJ
+
+add_core = --- #REXEUROPAEWIPE = VIJ
+
+fort_15th = yes #Mudgal
+
+discovered_by = indian
+
+discovered_by = nomad_group
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+discovered_by = chinese
+
+
+
+
+
+1378.1.1 = {
+
+	controller = --- #REXEUROPAEWIPE = BAH
+
+	owner = --- #REXEUROPAEWIPE = BAH
+
+}
+
+1428.1.1 = { add_core = --- #REXEUROPAEWIPE = BAH }
+
+1493.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = VIJ
+
+	controller = --- #REXEUROPAEWIPE = VIJ
+
+} #Given to VIJ by BAH in exchange for protection against Bijapur
+
+1498.1.1 = { discovered_by = POR }
+
+1503.1.1 = { owner = --- #REXEUROPAEWIPE = BIJ controller = --- #REXEUROPAEWIPE = BIJ } #Conquered by Bijapur
+
+1511.1.1 = { controller = --- #REXEUROPAEWIPE = VIJ } # Conquered by Vijayanagar
+
+1512.1.1 = { owner = --- #REXEUROPAEWIPE = VIJ } # Conquered by Vijayanagar
+
+1515.1.1 = {
+
+	controller = --- #REXEUROPAEWIPE = BIJ
+
+	owner = --- #REXEUROPAEWIPE = BIJ
+
+} #Falls in Bijapuri hands while VIJ is campaigning in Orissa
+
+1521.1.1 = { controller = --- #REXEUROPAEWIPE = VIJ }
+
+1522.1.1 = { owner = --- #REXEUROPAEWIPE = VIJ }
+
+1529.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = BIJ
+
+	controller = --- #REXEUROPAEWIPE = BIJ
+
+} #Adil Shahi forces seizes Mudgal and Raichur forts during the infighting after Krishna Rayas death
+
+1534.8.27 = {
+
+	owner = --- #REXEUROPAEWIPE = VIJ
+
+	controller = --- #REXEUROPAEWIPE = VIJ
+
+} #Adil Shahi nobility revolt against their new ruler while Vijayanagara forces seize the Raichur doab
+
+1565.1.26 = { controller = --- #REXEUROPAEWIPE = BIJ } #Lost by Vijayanagar in 1565
+
+1565.7.1 = {
+
+	owner = --- #REXEUROPAEWIPE = BIJ
+
+	remove_core = VIJ
+
+} #Lost by Vijayanagar
+
+1685.1.1 = { controller = --- #REXEUROPAEWIPE = MUG } # Conquered by the Mughal emperor Aurangzeb
+
+1686.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MUG
+
+	add_core = --- #REXEUROPAEWIPE = MUG
+
+	remove_core = BAH
+
+	remove_core = BIJ
+
+} # Conquered by the Mughal emperor Aurangzeb
+
+1712.1.1 = { add_core = --- #REXEUROPAEWIPE = DEC }	#Viceroyalty of the Deccan
+
+1724.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = DEC
+
+	controller = --- #REXEUROPAEWIPE = DEC
+
+	remove_core = MUG
+
+} # Asif Jah declared himself Nizam-al-Mulk
+

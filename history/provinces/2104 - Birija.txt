@@ -1,0 +1,72 @@
+# 2104 - Birija
+
+
+
+owner = --- #REXEUROPAEWIPE = MYR
+
+controller = --- #REXEUROPAEWIPE = MYR
+
+add_core = --- #REXEUROPAEWIPE = MYR
+
+culture = manchu
+
+religion = tengri_pagan_reformed
+
+capital = "Niuman"
+
+trade_goods = fur
+
+hre = no
+
+base_tax = 1 
+
+base_production = 1
+
+base_manpower = 1
+
+is_city = yes
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+1643.1.1 = { discovered_by = RUS }
+
+
+
+1653.1.1 = {	owner = --- #REXEUROPAEWIPE = RUS
+
+	controller = --- #REXEUROPAEWIPE = RUS
+
+	religion = orthodox
+
+	culture = russian
+
+
+
+} # Pyotr Beketov
+
+1689.8.27 = {	discovered_by = QNG
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+	culture = manchu
+
+	religion = confucianism
+
+	trade_goods = fish
+
+} # Treaty of Nerchinsk
+

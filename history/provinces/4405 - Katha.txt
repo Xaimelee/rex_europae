@@ -1,0 +1,96 @@
+#4405 - Katha
+
+
+
+owner = --- #REXEUROPAEWIPE = MYA
+
+controller = --- #REXEUROPAEWIPE = MYA
+
+culture = shan
+
+religion = buddhism
+
+capital = "Katha"
+
+trade_goods = tea
+
+hre = no
+
+base_tax = 2
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = MYA
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = indian
+
+
+
+
+
+1502.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = SST
+
+	controller = --- #REXEUROPAEWIPE = SST
+
+	add_core = --- #REXEUROPAEWIPE = SST
+
+	remove_core = MYA
+
+}
+
+1554.1.1 = { add_core = --- #REXEUROPAEWIPE = TAU }
+
+1559.1.1 = { controller = --- #REXEUROPAEWIPE = TAU }
+
+1563.4.1 = { owner = --- #REXEUROPAEWIPE = TAU }
+
+1599.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = SST
+
+	controller = --- #REXEUROPAEWIPE = SST
+
+}
+
+1605.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = TAU
+
+	controller = --- #REXEUROPAEWIPE = TAU
+
+}
+
+1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+
+1752.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = SST
+
+	controller = --- #REXEUROPAEWIPE = SST
+
+}
+
+1754.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = TAU
+
+	controller = --- #REXEUROPAEWIPE = TAU
+
+}
+
+1760.1.1 = { discovered_by = GBR }
+

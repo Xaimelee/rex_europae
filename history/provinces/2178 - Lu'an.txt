@@ -1,0 +1,73 @@
+# 2178 - Lu'an
+
+
+
+owner = --- #REXEUROPAEWIPE = MNG
+
+controller = --- #REXEUROPAEWIPE = MNG
+
+add_core = --- #REXEUROPAEWIPE = MNG
+
+culture = jin
+
+religion = confucianism
+
+capital = "Lu'an"
+
+trade_goods = iron
+
+hre = no
+
+base_tax = 3 
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = JIN
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+1608.1.1 = { discovered_by = SPA }
+
+1644.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CSH
+
+	controller = --- #REXEUROPAEWIPE = CSH
+
+	add_core = --- #REXEUROPAEWIPE = CSH
+
+} # Li Zicheng's Shun empire
+
+1644.10.3 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}
+
+1649.5.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MNG
+
+	controller = --- #REXEUROPAEWIPE = MNG
+
+}
+
+1650.11.11 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+}

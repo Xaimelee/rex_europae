@@ -1,0 +1,78 @@
+#877 - Pima
+
+
+
+add_core = --- #REXEUROPAEWIPE = PIM
+
+owner = --- #REXEUROPAEWIPE = PIM
+
+controller = --- #REXEUROPAEWIPE = PIM
+
+culture = piman 
+
+religion = totemism
+
+capital = "Pima" 
+
+trade_goods = salt 
+
+hre = no 
+
+base_tax = 1 
+
+base_production = 1 
+
+base_manpower = 1 
+
+is_city = yes
+
+native_size = 5 
+
+native_ferocity = 2 
+
+native_hostileness = 1 
+
+
+
+
+
+
+
+discovered_by = north_american
+
+
+
+1541.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado
+
+
+
+1731.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = SPA
+
+	controller = --- #REXEUROPAEWIPE = SPA
+
+	add_core = --- #REXEUROPAEWIPE = SPA
+
+	remove_core = PIM
+
+	religion = catholic
+
+	culture = castillian
+
+} # First permanent Spanish settlers
+
+1751.1.1 = { unrest = 5 }
+
+1752.1.1 = { unrest = 0 }
+
+1810.9.16 = {
+
+	owner = --- #REXEUROPAEWIPE = MEX
+
+	add_core = --- #REXEUROPAEWIPE = MEX
+
+	controller = --- #REXEUROPAEWIPE = SPA
+
+} # Mexican War of Independence
+

@@ -1,0 +1,73 @@
+owner = --- #REXEUROPAEWIPE = OIR
+
+controller = --- #REXEUROPAEWIPE = OIR
+
+add_core = --- #REXEUROPAEWIPE = OIR
+
+culture = khalkha
+
+religion = tengri_pagan_reformed
+
+capital = "Zakhchin"
+
+trade_goods = livestock
+
+hre = no
+
+base_tax = 1 
+
+base_production = 1
+
+base_manpower = 2
+
+is_city = yes
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+
+
+1552.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = KHA
+
+	controller = --- #REXEUROPAEWIPE = KHA
+
+	add_core = --- #REXEUROPAEWIPE = KHA
+
+} # The Oirads are defeated & Altan Khan reunites the the area.
+
+1633.1.1 = { discovered_by = RUS }
+
+1635.4.1 = {
+
+	owner = --- #REXEUROPAEWIPE = KLK
+
+	controller = --- #REXEUROPAEWIPE = KLK
+
+	add_core = --- #REXEUROPAEWIPE = KLK
+
+}
+
+1688.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = ZUN
+
+	controller = --- #REXEUROPAEWIPE = ZUN
+
+}
+
+1697.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+} # Outer Mongolia intergrated into Qing
+
+1709.1.1 = { discovered_by = SPA }

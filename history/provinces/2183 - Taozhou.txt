@@ -1,0 +1,65 @@
+# 2183 - Taozhou
+
+
+
+owner = --- #REXEUROPAEWIPE = MNG
+
+controller = --- #REXEUROPAEWIPE = MNG
+
+add_core = --- #REXEUROPAEWIPE = MNG
+
+culture = tibetan
+
+religion = vajrayana
+
+capital = "Taozhou"
+
+trade_goods = chinaware
+
+hre = no
+
+base_tax = 2 
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = CSH
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+
+
+1644.1.1 = {
+
+	revolt_risk = 0
+
+	owner = --- #REXEUROPAEWIPE = CSH
+
+	controller = --- #REXEUROPAEWIPE = CSH
+
+} # Li Zicheng's Shun empire
+
+1645.2.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}
+
+1682.1.1 = { discovered_by = SPA } #Ferdinand Verbiest

@@ -1,0 +1,41 @@
+#Bushubi
+
+
+
+owner = --- #REXEUROPAEWIPE = UBH
+
+controller = --- #REXEUROPAEWIPE = UBH
+
+add_core = --- #REXEUROPAEWIPE = UBH
+
+culture = rwandan
+
+religion = shamanism #Fetishism
+
+capital = "Bushubi"
+
+trade_goods = grain
+
+hre = no
+
+base_tax = 3
+
+base_production = 3
+
+base_manpower = 3
+
+is_city = yes
+
+discovered_by = central_african
+
+
+
+1750.1.1 = { #Bugesera divided between Rwanda and Burundi
+
+	owner = --- #REXEUROPAEWIPE = BUU
+
+	controller = --- #REXEUROPAEWIPE = BUU
+
+	add_core = --- #REXEUROPAEWIPE = BUU
+
+}

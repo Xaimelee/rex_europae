@@ -1,0 +1,62 @@
+#637 - Api-Api
+
+
+
+owner = --- #REXEUROPAEWIPE = BEI
+
+controller = --- #REXEUROPAEWIPE = BEI
+
+culture = bornean
+
+religion = sunni
+
+capital = "Api-Api"
+
+trade_goods = spices
+
+hre = no
+
+base_tax = 3 
+
+base_production = 3
+
+base_manpower = 3
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = BEI
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = indian
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+
+
+1521.1.1 = { discovered_by = POR }
+
+
+
+1672.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = --- #REXEUROPAEWIPE = REB } # Civil war over succession
+
+1673.1.1 = { revolt = {} controller = --- #REXEUROPAEWIPE = BEI }
+
+1703.1.1 = {	owner = --- #REXEUROPAEWIPE = SUL
+
+	controller = --- #REXEUROPAEWIPE = SUL
+
+	add_core = --- #REXEUROPAEWIPE = SUL
+
+	remove_core = BEI
+
+} # Ceded to the Sultanate of Sulu
+

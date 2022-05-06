@@ -1,0 +1,78 @@
+#4407 - Ruhunu
+
+
+
+owner = --- #REXEUROPAEWIPE = CEY
+
+controller = --- #REXEUROPAEWIPE = CEY
+
+culture = sinhala
+
+religion = buddhism
+
+capital = "Devinuvara"
+
+trade_goods = gems
+
+hre = no
+
+base_tax = 2
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = CEY
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+discovered_by = indian
+
+discovered_by = chinese
+
+discovered_by = east_african
+
+
+
+1521.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = KND
+
+	controller = --- #REXEUROPAEWIPE = KND
+
+	add_core = --- #REXEUROPAEWIPE = KND
+
+}
+
+1505.1.1 = { discovered_by = POR } # Francisco de Almeida
+
+1542.1.1 = { add_core = --- #REXEUROPAEWIPE = POR }
+
+1658.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = NED
+
+	controller = --- #REXEUROPAEWIPE = NED
+
+	add_core = --- #REXEUROPAEWIPE = NED
+
+	remove_core = POR
+
+} # Dutch control
+
+1799.8.1 = { controller = --- #REXEUROPAEWIPE = GBR } # Occupied by England
+
+1802.3.25 = {
+
+	owner = --- #REXEUROPAEWIPE = GBR
+
+	add_core = --- #REXEUROPAEWIPE = GBR
+
+	remove_core = NED
+
+} # Treaty of Amiens
+

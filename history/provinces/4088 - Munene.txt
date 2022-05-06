@@ -1,0 +1,29 @@
+owner = --- #REXEUROPAEWIPE = KUB
+
+controller = --- #REXEUROPAEWIPE = KUB
+
+add_core = --- #REXEUROPAEWIPE = KUB
+
+culture = kuba
+
+religion = shamanism #Fetishism
+
+capital = "Mai Munene"
+
+trade_goods = spices
+
+hre = no
+
+base_tax = 2
+
+base_production = 2
+
+base_manpower = 2
+
+is_city = yes
+
+discovered_by = central_african
+
+
+
+1700.1.1 = { owner = --- #REXEUROPAEWIPE = LND controller = --- #REXEUROPAEWIPE = LND add_core = --- #REXEUROPAEWIPE = LND }

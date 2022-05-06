@@ -1,0 +1,66 @@
+# Maolian
+
+
+
+owner = --- #REXEUROPAEWIPE = MJZ
+
+controller = --- #REXEUROPAEWIPE = MJZ
+
+add_core = --- #REXEUROPAEWIPE = MJZ
+
+culture = manchu
+
+religion = confucianism
+
+capital = "Maolian"
+
+trade_goods = naval_supplies
+
+hre = no
+
+base_tax = 3 
+
+base_production = 3
+
+base_manpower = 2
+
+is_city = yes
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+1542.1.1 = { discovered_by = POR }
+
+
+
+1616.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MCH
+
+	controller = --- #REXEUROPAEWIPE = MCH
+
+	add_core = --- #REXEUROPAEWIPE = MCH
+
+	remove_core = MJZ
+
+	culture = manchu_new
+
+} # The Later Jin Khanate
+
+1636.5.15 = {	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+	remove_core = MCH
+
+} # The Qing Dynasty
+
+1709.1.1 = { discovered_by = SPA }
+
+1739.1.1 = { discovered_by = RUS } # Martin Spanberg
+

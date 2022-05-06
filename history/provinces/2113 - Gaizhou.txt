@@ -1,0 +1,67 @@
+# 2113 - Gaizhou
+
+
+
+owner = --- #REXEUROPAEWIPE = MNG
+
+controller = --- #REXEUROPAEWIPE = MNG
+
+add_core = --- #REXEUROPAEWIPE = MNG
+
+culture = shandong_culture
+
+religion = confucianism
+
+capital = "Gaizhou"
+
+trade_goods = fish
+
+hre = no
+
+base_tax = 3 
+
+base_production = 3
+
+base_manpower = 1
+
+is_city = yes
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+1519.1.1 = { discovered_by = POR } # Tome Pires
+
+
+
+1620.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MCH
+
+	controller = --- #REXEUROPAEWIPE = MCH
+
+	add_core = --- #REXEUROPAEWIPE = MCH
+
+	remove_core = MNG
+
+} # The Later Jin Khanate
+
+1636.5.15 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+	remove_core = MCH
+
+} # The Qing Dynasty

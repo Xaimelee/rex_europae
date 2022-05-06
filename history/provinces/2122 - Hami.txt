@@ -1,0 +1,124 @@
+# 2122 - Hami
+
+
+
+owner = --- #REXEUROPAEWIPE = HMI
+
+controller = --- #REXEUROPAEWIPE = HMI
+
+add_core = --- #REXEUROPAEWIPE = HMI
+
+culture = oirats
+
+religion = vajrayana
+
+capital = "Hami"
+
+trade_goods = grain
+
+hre = no
+
+base_tax = 3 
+
+base_production = 2
+
+base_manpower = 3
+
+is_city = yes
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+
+
+1473.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CHG
+
+	controller = --- #REXEUROPAEWIPE = CHG
+
+}
+
+1482.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = HMI
+
+	controller = --- #REXEUROPAEWIPE = HMI
+
+}
+
+1488.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CHG
+
+	controller = --- #REXEUROPAEWIPE = CHG
+
+}
+
+1492.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = HMI
+
+	controller = --- #REXEUROPAEWIPE = HMI
+
+}
+
+1493.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CHG
+
+	controller = --- #REXEUROPAEWIPE = CHG
+
+}
+
+1495.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MNG
+
+	controller = --- #REXEUROPAEWIPE = MNG
+
+}
+
+1513.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CHG
+
+	controller = --- #REXEUROPAEWIPE = CHG
+
+}
+
+1570.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = KAS
+
+	controller = --- #REXEUROPAEWIPE = KAS
+
+	add_core = --- #REXEUROPAEWIPE = KAS
+
+}
+
+1682.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = ZUN
+
+	controller = --- #REXEUROPAEWIPE = ZUN
+
+	add_core = --- #REXEUROPAEWIPE = ZUN
+
+}
+
+1709.1.1 = { discovered_by = SPA }
+
+1755.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}
+

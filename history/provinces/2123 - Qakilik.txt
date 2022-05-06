@@ -1,0 +1,72 @@
+# 2123 - Qakilik
+
+
+
+owner = --- #REXEUROPAEWIPE = CHG
+
+controller = --- #REXEUROPAEWIPE = CHG
+
+add_core = --- #REXEUROPAEWIPE = CHG
+
+culture = oirats
+
+religion = vajrayana
+
+capital = "Qakilik"
+
+trade_goods = livestock
+
+hre = no
+
+base_tax = 1 
+
+base_production = 1
+
+base_manpower = 2
+
+is_city = yes
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+
+
+1570.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = KAS
+
+	controller = --- #REXEUROPAEWIPE = KAS
+
+	add_core = --- #REXEUROPAEWIPE = KAS
+
+}
+
+1682.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = ZUN
+
+	controller = --- #REXEUROPAEWIPE = ZUN
+
+	add_core = --- #REXEUROPAEWIPE = ZUN
+
+}
+
+1755.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}
+

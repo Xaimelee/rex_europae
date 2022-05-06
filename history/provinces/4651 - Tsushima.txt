@@ -1,0 +1,62 @@
+#4651 - Tsushima
+
+
+
+owner = --- #REXEUROPAEWIPE = SOO
+
+controller = --- #REXEUROPAEWIPE = SOO
+
+culture = kyushuan
+
+religion = shinto
+
+capital = "Tsushima"
+
+trade_goods = chinaware
+
+hre = no
+
+base_tax = 2
+
+base_manpower = 1
+
+base_production = 1
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = SOO
+
+discovered_by = chinese
+
+discovered_by = MCH
+
+discovered_by = KHA
+
+discovered_by = OIR
+
+discovered_by = QNG
+
+
+
+1542.1.1   = { discovered_by = POR }
+
+1550.1.1   = { add_core = --- #REXEUROPAEWIPE = OTM }
+
+1557.4.3   = { owner = --- #REXEUROPAEWIPE = OTM controller = --- #REXEUROPAEWIPE = OTM }
+
+1584.3.1 = { add_core = --- #REXEUROPAEWIPE = SMZ owner = --- #REXEUROPAEWIPE = SMZ controller = --- #REXEUROPAEWIPE = SMZ }
+
+#Battle of Okitanawate
+
+1587.5.15 = { add_core = --- #REXEUROPAEWIPE = MRI owner = --- #REXEUROPAEWIPE = MRI controller = --- #REXEUROPAEWIPE = MRI remove_core = SMZ }
+
+#Hideyoshi's conquest of Kyushu
+
+1600.10.21 = { add_core = --- #REXEUROPAEWIPE = TKG owner = --- #REXEUROPAEWIPE = TKG controller = --- #REXEUROPAEWIPE = TKG remove_core = MRI }
+
+#Battle of Sekigahara - Kobayakawa changes sides
+
+#1603.3.24 = { owner = --- #REXEUROPAEWIPE = JAP controller = --- #REXEUROPAEWIPE = JAP add_core = --- #REXEUROPAEWIPE = JAP remove_core = TKG }
+
+# Tokugawa shogunate founded
+

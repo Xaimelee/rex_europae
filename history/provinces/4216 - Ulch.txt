@@ -1,0 +1,62 @@
+#4216 - Ulch
+
+
+
+owner = --- #REXEUROPAEWIPE = NHX
+
+controller = --- #REXEUROPAEWIPE = NHX
+
+add_core = --- #REXEUROPAEWIPE = NHX
+
+culture = manchu
+
+religion = tengri_pagan_reformed
+
+capital = "Ulch"
+
+trade_goods = fish
+
+hre = no
+
+base_tax = 1 
+
+base_production = 1
+
+base_manpower = 1
+
+is_city = yes
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+1542.1.1 = { discovered_by = POR }
+
+1620.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MCH
+
+	controller = --- #REXEUROPAEWIPE = MCH
+
+	add_core = --- #REXEUROPAEWIPE = MCH
+
+	culture = manchu_new
+
+} # The Later Jin Khanate
+
+1636.5.15 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+	remove_core = MCH
+
+} # The Qing Dynasty
+
+1739.1.1 = { discovered_by = RUS } # Martin Spanberg
+

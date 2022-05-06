@@ -1,0 +1,66 @@
+culture = salish
+
+religion = totemism
+
+capital = "Yakima"
+
+trade_goods = unknown
+
+hre = no
+
+base_tax = 1
+
+base_production = 1
+
+base_manpower = 1
+
+native_size = 5
+
+native_ferocity = 1
+
+native_hostileness = 2
+
+
+
+
+
+
+
+discovered_by = north_american
+
+
+
+
+
+1811.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = USA
+
+	controller = --- #REXEUROPAEWIPE = USA
+
+	add_core = --- #REXEUROPAEWIPE = USA
+
+	is_city = yes
+
+	trade_goods = fur
+
+	religion = protestant
+
+	culture = american } #Fort Okanogan
+
+1814.12.24 = {
+
+	owner = --- #REXEUROPAEWIPE = GBR
+
+	controller = --- #REXEUROPAEWIPE = GBR
+
+	add_core = --- #REXEUROPAEWIPE = GBR
+
+	remove_core = USA
+
+	culture = english
+
+	religion = protestant
+
+} # British control after the War of 1812
+

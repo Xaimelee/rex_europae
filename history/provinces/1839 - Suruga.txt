@@ -1,0 +1,104 @@
+#1839 - Suruga
+
+
+
+
+
+
+
+owner = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = IMG
+
+
+
+controller = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = IMG
+
+
+
+culture = togoku
+
+
+
+religion = shinto
+
+
+
+capital = "Sunpu"
+
+
+
+trade_goods = tea
+
+
+
+hre = no
+
+
+
+base_tax = 4 
+
+
+
+base_production = 4
+
+
+
+base_manpower = 3
+
+
+
+is_city = yes
+
+
+
+add_core = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = IMG
+
+
+
+discovered_by = chinese
+
+
+
+discovered_by = MCH
+
+
+
+discovered_by = KHA
+
+
+
+discovered_by = OIR
+
+
+
+discovered_by = QNG
+
+
+
+
+
+
+
+1501.1.1 = { add_core = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKG }
+
+
+
+1542.1.1 = { discovered_by = POR }
+
+
+
+1568.12.1 = { add_core = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKD owner = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKD controller = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKD remove_core = IMG }
+
+
+
+1582.4.3 = { add_core = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKG owner = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKG controller = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKG remove_core = TKD }
+
+
+
+1590.8.10 = { add_core = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = ODA owner = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = ODA controller = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = ODA remove_core = TKG }
+
+
+
+1600.9.13 = { owner = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKG controller = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKG add_core = --- #REXEUROPAEWIPE = --- #REXEUROPAEWIPE = TKG remove_core = ODA }
+
+
+

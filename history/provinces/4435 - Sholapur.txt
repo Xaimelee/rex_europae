@@ -1,0 +1,90 @@
+#4435 - Sholhapur
+
+
+
+owner = --- #REXEUROPAEWIPE = BAH
+
+controller = --- #REXEUROPAEWIPE = BAH
+
+culture = marathi
+
+religion = hinduism
+
+capital = "Sholhapur"
+
+trade_goods = cotton
+
+hre = no
+
+base_tax = 3
+
+base_production = 3
+
+base_manpower = 1
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = BAH
+
+add_core = --- #REXEUROPAEWIPE = BIJ
+
+discovered_by = nomad_group
+
+discovered_by = indian
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+discovered_by = chinese
+
+
+
+1490.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = BIJ
+
+	controller = --- #REXEUROPAEWIPE = BIJ
+
+	remove_core = BAH
+
+} # The Breakup of the Bahmani sultanate
+
+1498.1.1 = { discovered_by = POR }
+
+1565.1.1 = { fort_15th = yes }
+
+1650.1.1 = { add_core = --- #REXEUROPAEWIPE = MAR }
+
+1685.1.1 = { controller = --- #REXEUROPAEWIPE = MUG }
+
+1686.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MUG
+
+	add_core = --- #REXEUROPAEWIPE = MUG
+
+}
+
+1712.1.1 = { add_core = --- #REXEUROPAEWIPE = DEC }	#Viceroyalty of the Deccan
+
+1724.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = DEC
+
+	controller = --- #REXEUROPAEWIPE = DEC
+
+	remove_core = MUG
+
+} # Asif Jah declared himself Nizam-al-Mulk
+
+1760.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = MAR
+
+	controller = --- #REXEUROPAEWIPE = MAR
+
+	remove_core = DEC
+
+} # Battle of Udgir
+

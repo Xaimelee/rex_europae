@@ -1,0 +1,138 @@
+#540 - Coromandel 
+
+
+
+owner = --- #REXEUROPAEWIPE = VIJ
+
+controller = --- #REXEUROPAEWIPE = VIJ
+
+culture = tamil
+
+religion = hinduism
+
+capital = "Kuddaluru"
+
+trade_goods = cloth
+
+hre = no
+
+base_tax = 4
+
+base_production = 4
+
+base_manpower = 3
+
+is_city = yes
+
+add_vaisyas_or_burghers_effect = yes
+
+add_core = --- #REXEUROPAEWIPE = VIJ
+
+add_core = --- #REXEUROPAEWIPE = MAD
+
+add_core = --- #REXEUROPAEWIPE = GNG
+
+add_local_autonomy = 25
+
+discovered_by = indian
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+discovered_by = nomad_group
+
+discovered_by = chinese
+
+extra_cost = 16
+
+center_of_trade = 2
+
+
+
+1405.1.1 = { discovered_by = chinese }
+
+1498.1.1 = { discovered_by = POR }
+
+1543.1.1 = {
+
+	controller = --- #REXEUROPAEWIPE = REB
+
+	revolt = {
+
+	size = 0
+
+	type = nationalist_rebels
+
+	}
+
+}
+
+1548.1.1 = { controller = --- #REXEUROPAEWIPE = VIJ revolt = { } }
+
+1565.1.26 = {
+
+	owner = --- #REXEUROPAEWIPE = GNG
+
+	controller = --- #REXEUROPAEWIPE = GNG
+
+} # The Vijayanagar empire collapses
+
+1649.1.1 = { controller = --- #REXEUROPAEWIPE = BIJ } # Conquered by Bijapur
+
+1649.12.1 = {
+
+	owner = --- #REXEUROPAEWIPE = BIJ
+
+	add_core = --- #REXEUROPAEWIPE = BIJ
+
+	remove_core = KRK
+
+} # Conquered by Bijapur
+
+1674.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = FRA
+
+	controller = --- #REXEUROPAEWIPE = FRA
+
+	add_core = --- #REXEUROPAEWIPE = FRA
+
+	capital = "Pondicherry"
+
+	add_to_trade_company = FRA
+
+	add_trade_company_investment = {
+
+		investment = company_depot
+
+		investor = FRA
+
+	}
+
+	add_trade_company_investment = {
+
+		investment = permanent_quarters
+
+		investor = FRA
+
+	}
+
+	add_trade_company_investment = {
+
+		investment = settlements
+
+		investor = FRA
+
+	}
+
+}
+
+1761.1.16 = { controller = --- #REXEUROPAEWIPE = GBR } # Third Carnatic War
+
+1763.2.10 = {
+
+	controller = --- #REXEUROPAEWIPE = FRA
+
+} # Returned to France
+

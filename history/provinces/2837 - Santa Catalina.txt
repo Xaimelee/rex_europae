@@ -1,0 +1,86 @@
+# - Santa Catalina
+
+
+
+owner = --- #REXEUROPAEWIPE = CCQ
+
+controller = --- #REXEUROPAEWIPE = CCQ
+
+add_core = --- #REXEUROPAEWIPE = CCQ
+
+is_city = yes
+
+culture = diaguita
+
+
+
+
+
+
+
+discovered_by = south_american
+
+discovered_by = andean
+
+
+
+religion = inti
+
+capital = "Santa Catalina"
+
+trade_goods = wool
+
+hre = no
+
+base_tax = 1 
+
+base_production = 1
+
+base_manpower = 1
+
+
+
+1485.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = INC
+
+	controller = --- #REXEUROPAEWIPE = INC
+
+	add_core = --- #REXEUROPAEWIPE = INC
+
+}
+
+1533.8.29 = {
+
+	discovered_by = SPA
+
+	owner = --- #REXEUROPAEWIPE = SPA
+
+	controller = --- #REXEUROPAEWIPE = SPA
+
+	add_core = --- #REXEUROPAEWIPE = SPA
+
+}# The death of Atahualpa
+
+1593.1.1 = { discovered_by = SPA } # Francisco de Asgaranaz y Murguía, under constant attack
+
+1600.1.1 = {	
+
+	culture = castillian
+
+	religion = catholic
+
+} # Continued to prosper in spite of several attacks
+
+1816.7.9 = {
+
+	owner = --- #REXEUROPAEWIPE = LAP
+
+	controller = --- #REXEUROPAEWIPE = LAP
+
+	add_core = --- #REXEUROPAEWIPE = LAP
+
+	remove_core = SPA
+
+} # Argentina is declared independent
+

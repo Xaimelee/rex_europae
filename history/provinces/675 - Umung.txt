@@ -1,0 +1,78 @@
+#675 - Qujing
+
+
+
+owner = --- #REXEUROPAEWIPE = MNG
+
+controller = --- #REXEUROPAEWIPE = MNG
+
+add_core = --- #REXEUROPAEWIPE = MNG
+
+add_core = --- #REXEUROPAEWIPE = CYI
+
+culture = yi
+
+religion = animism
+
+capital = "Umung"
+
+trade_goods = copper
+
+hre = no
+
+base_tax = 1 
+
+base_production = 1
+
+base_manpower = 3
+
+is_city = yes
+
+
+
+
+
+
+
+discovered_by = chinese
+
+discovered_by = indian
+
+discovered_by = nomad_group
+
+
+
+1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
+
+
+
+1658.12.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+}
+
+1661.6.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CZH
+
+	controller = --- #REXEUROPAEWIPE = CZH
+
+	add_core = --- #REXEUROPAEWIPE = CZH
+
+	remove_core = MNG
+
+} # The Three Feudatories
+
+1681.10.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+}
+

@@ -1,0 +1,68 @@
+#721 - Dornod
+
+
+
+owner = --- #REXEUROPAEWIPE = KHA
+
+controller = --- #REXEUROPAEWIPE = KHA
+
+add_core = --- #REXEUROPAEWIPE = KHA
+
+culture = khalkha
+
+religion = tengri_pagan_reformed
+
+capital = "Setsen"
+
+trade_goods = livestock
+
+hre = no
+
+base_tax = 2 
+
+base_production = 1
+
+base_manpower = 2
+
+is_city = yes
+
+discovered_by = chinese
+
+discovered_by = nomad_group
+
+
+
+
+
+1543.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = --- #REXEUROPAEWIPE = REB } # Fighting broke out between the Mongols
+
+1552.1.1 = {
+
+	revolt = {}
+
+	controller = --- #REXEUROPAEWIPE = KHA
+
+} # The Oirads are defeated & Mongolia is reunited under Altan Khan
+
+1682.1.1 = { discovered_by = SPA } #Ferdinand Verbiest
+
+1688.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = ZUN
+
+	controller = --- #REXEUROPAEWIPE = ZUN
+
+}
+
+1696.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = QNG
+
+	controller = --- #REXEUROPAEWIPE = QNG
+
+	add_core = --- #REXEUROPAEWIPE = QNG
+
+} # Kangxi leads Qing army pushing Zunghars back
+
+1709.1.1 = { discovered_by = SPA }
+

@@ -1,0 +1,94 @@
+#2100 - Vanni
+
+
+
+owner = --- #REXEUROPAEWIPE = JFN
+
+controller = --- #REXEUROPAEWIPE = JFN
+
+culture = tamil
+
+religion = hinduism
+
+capital = "Yapapatuna"
+
+trade_goods = gems
+
+hre = no
+
+base_tax = 2 
+
+base_production = 3
+
+base_manpower = 1
+
+is_city = yes
+
+add_core = --- #REXEUROPAEWIPE = JFN
+
+discovered_by = muslim
+
+discovered_by = ottoman
+
+discovered_by = indian
+
+discovered_by = chinese
+
+discovered_by = east_african
+
+
+
+
+
+1411.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = CEY
+
+	controller = --- #REXEUROPAEWIPE = CEY
+
+}	#Sangamas expelled by Zheng He
+
+1432.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = JFN
+
+	controller = --- #REXEUROPAEWIPE = JFN
+
+}	#Reconquest by Vijayanagar
+
+1505.1.1 = { discovered_by = POR } # Francisco de Almeida
+
+1619.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = POR
+
+	controller = --- #REXEUROPAEWIPE = POR
+
+	add_core = --- #REXEUROPAEWIPE = POR
+
+}
+
+1658.1.1 = {
+
+	owner = --- #REXEUROPAEWIPE = NED
+
+	controller = --- #REXEUROPAEWIPE = NED
+
+	add_core = --- #REXEUROPAEWIPE = NED
+
+	remove_core = POR
+
+} # Dutch control
+
+1799.8.1 = { controller = --- #REXEUROPAEWIPE = GBR } # Occupied by England
+
+1802.3.25 = {
+
+	owner = --- #REXEUROPAEWIPE = GBR
+
+	add_core = --- #REXEUROPAEWIPE = GBR
+
+	remove_core = NED
+
+} # Treaty of Amiens
+
