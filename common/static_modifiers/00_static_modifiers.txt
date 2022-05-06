@@ -153,7 +153,7 @@ arctic = {
 	allowed_num_of_buildings = -1
 	local_development_cost = 0.5
 
-	picture = "climate_arctic"#####
+	picture = "climate_arctic"
 }
 
 arid = {
