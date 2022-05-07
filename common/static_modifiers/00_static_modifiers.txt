@@ -823,12 +823,14 @@ navy_tradition = {
 }
 
 positive_piety = { #As of 1.23 Legalism
-	technology_cost = -0.1
-	global_manpower_modifier = 0.20
+	technology_cost = -0.05 #0.10
+	#global_manpower_modifier = 0.20
 	global_tax_modifier = 0.20
 	brahmins_muslim_loyalty_modifier = -0.1
 	church_loyalty_modifier = 0.1
 	dhimmi_loyalty_modifier = -0.1
+	#Additions
+	manpower_in_true_faith_provinces = 0.20
 }
 
 #For convenience, its multiplied by negative piety in code.
