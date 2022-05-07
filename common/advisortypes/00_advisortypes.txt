@@ -299,7 +299,7 @@ diplomat = {
 	monarch_power = DIP
 	
 	# Bonus
-	improve_relation_modifier = 0.2
+	improve_relation_modifier = 0.33 #0.2
 
 	skill_scaled_modifier = { meritocracy = 0.25 }	
 
