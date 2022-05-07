@@ -1192,6 +1192,9 @@ drydock = {
 
 	modifier = {
 		local_sailors_modifier = 1.0
+		#Additions
+		local_manpower_modifier = 0.2
+		naval_forcelimit = 2
 	}
 	
 	on_built = {
