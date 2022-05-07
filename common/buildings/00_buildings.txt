@@ -584,7 +584,6 @@ fort_16th = {
 }
 
 naval_battery = {
-
 	make_obsolete = coastal_defence
 	cost = 200
 	time = 12
@@ -609,11 +608,11 @@ naval_battery = {
 cathedral = {
 	make_obsolete = temple
 
-	cost = 300
+	cost = 400
 	time = 12
 	modifier = {
 		local_missionary_strength = 0.03
-		local_tax_modifier = 0.6
+		local_tax_modifier = 1 #0.6
 	}
 	on_built = {
 		if = {
