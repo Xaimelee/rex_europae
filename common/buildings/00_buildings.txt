@@ -345,6 +345,8 @@ courthouse = {
 		local_state_maintenance_modifier = -0.25
 		local_autonomy = -0.1
 		local_governing_cost = -0.25
+		#Additions
+		allowed_num_of_buildings = 1
 	}
 	on_built = {
 		add_development_from_building = {
