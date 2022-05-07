@@ -183,6 +183,8 @@ statesman = {
 	
 	# Bonus
 	diplomatic_reputation = 1
+	#Additions
+	diplomatic_annexation_cost = -0.1
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
