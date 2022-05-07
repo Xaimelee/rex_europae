@@ -327,6 +327,10 @@ navigator = {
 			factor = 0
 			owner = { NOT = { num_of_colonists = 1 } }
 		}
+		modifier = {
+			factor = 0.5
+			owner = { has_idea_group = expansion_ideas }
+		}
 	}
 	
 	ai_will_do = {
