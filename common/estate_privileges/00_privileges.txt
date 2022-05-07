@@ -2124,7 +2124,7 @@ estate_nobles_nobility_primacy = {
 estate_nobles_officer_corp = {
 	icon = privilege_promote_purbias
 	max_absolutism = -5
-	influence = 0.15 #0.05
+	influence = 0.1 #0.05
 	can_select = {
 		army_tradition = 30
 	}
@@ -2154,9 +2154,12 @@ estate_nobles_levies = {
 	can_select = {
 		NOT = { has_estate_privilege = estate_nobles_golden_liberty }
 	}
+	on_granted = {
+		add_legitimacy = -10
+	}
 	modifier_by_land_ownership = {
-		global_tax_modifier = -0.10
-		global_manpower_modifier = 0.33
+		global_tax_modifier = -0.25 #-0.10
+		global_manpower_modifier = 0.25 #0.33
 	}
 	penalties = {
 	}
