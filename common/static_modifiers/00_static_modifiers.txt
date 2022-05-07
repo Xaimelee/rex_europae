@@ -1542,15 +1542,19 @@ invasion_nation = {
 
 native_policy_coexist = {
 	native_uprising_chance = -1.0
+	#Additions
+	global_colonial_growth = 10
 }
 
 native_policy_trade = {
-	native_assimilation = 0.5
-	native_uprising_chance = -0.5
+	native_assimilation = 0.25 #0.5
+	native_uprising_chance = -1.0 #-0.5
 }
 
 native_policy_hostile = {
-	global_colonial_growth = 20
+	#global_colonial_growth = 20
+	#Additions
+	colonists = 1
 }
 
 ########################################
