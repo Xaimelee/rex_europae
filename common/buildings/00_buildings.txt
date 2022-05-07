@@ -237,13 +237,13 @@ barracks = {
 }
 
 shipyard = {
-	cost = 100
+	cost = 50
 	time = 12
 	build_trigger = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 2
+		naval_forcelimit = 1
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 	}
