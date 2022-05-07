@@ -2063,6 +2063,7 @@ estate_nobles_nobility_primacy = {
 	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
+		always = no
 		custom_trigger_tooltip = {
 			tooltip = no_other_mil_privilege
 			NOT = { has_estate_privilege = estate_rajput_military }
@@ -2346,6 +2347,7 @@ estate_church_religious_state = {
 	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
+		always = no
 	}
 	on_granted = {
 	}
@@ -2789,6 +2791,7 @@ estate_burghers_land_of_commerce = {
 	max_absolutism = -5
 	loyalty = -0.05
 	can_select = {
+		always = no
 	}
 	on_granted = {
 	}
@@ -3527,6 +3530,7 @@ estate_brahmins_brahmin_governance = {
 		NOT = { religion_group = muslim }
 	}
 	can_select = {
+		always = no
 	}
 	on_granted = {
 	}
@@ -3782,6 +3786,7 @@ estate_jains_diplomacy = {
 		NOT = { has_estate = estate_burghers }
 	}
 	can_select = {
+		always = no
 	}
 	on_granted = {
 	}
@@ -3931,6 +3936,7 @@ estate_maratha_military = {
 	is_valid = {
 	}
 	can_select = {
+		always = no
 		custom_trigger_tooltip = {
 			tooltip = no_other_mil_privilege
 			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
@@ -4242,6 +4248,7 @@ estate_rajput_military = {
 	is_valid = {
 	}
 	can_select = {
+		always = no
 		custom_trigger_tooltip = {
 			tooltip = no_other_mil_privilege
 			NOT = { has_estate_privilege = estate_nobles_nobility_primacy }
