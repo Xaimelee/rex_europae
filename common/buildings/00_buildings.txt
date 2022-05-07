@@ -90,7 +90,7 @@ temple = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_tax_modifier = 0.5
+		local_tax_modifier = 0.5 #0.4
 	}
 	on_built = {
 		if = {
@@ -237,13 +237,13 @@ barracks = {
 }
 
 shipyard = {
-	cost = 50
+	cost = 50 #100
 	time = 12
 	build_trigger = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 1
+		naval_forcelimit = 1 #2
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 	}
@@ -316,7 +316,6 @@ fort_15th = {
 }
 
 coastal_defence = {
-
 	cost = 100
 	time = 12
 	build_trigger = {
@@ -326,6 +325,8 @@ coastal_defence = {
 		blockade_force_required = 0.5
 		hostile_disembark_speed = 1.0
 		block_slave_raid = yes
+		#Additions
+		hostile_fleet_attrition = 1
 	}
 
 	ai_will_do = {
