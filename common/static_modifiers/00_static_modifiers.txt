@@ -529,7 +529,11 @@ left_trade_company = {
 
 
 scorched_earth = {
-	local_hostile_movement_speed = -0.50
+	#local_hostile_movement_speed = -0.50
+	#Additions
+	supply_limit_modifier = -0.33
+	garrison_growth = -0.33
+	max_attrition = 5
 }
 
 ##########################################################################
