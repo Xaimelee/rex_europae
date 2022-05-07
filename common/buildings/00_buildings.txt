@@ -1803,12 +1803,16 @@ state_house = {
 	}
 
 	modifier = {
-		statewide_governing_cost = -0.2
-		min_local_autonomy = -5
+		statewide_governing_cost = -0.25
+		#min_local_autonomy = -5
+		#Additions
+		tax_income = 12
 	}
 	bonus_modifier = {
-		statewide_governing_cost = -0.2
-		min_local_autonomy = -5
+		statewide_governing_cost = -0.25
+		#min_local_autonomy = -5
+		#Additions
+		tax_income = 12
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
