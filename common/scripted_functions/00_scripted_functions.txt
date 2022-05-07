@@ -35,7 +35,8 @@ can_release_colonial_nation = {
 		potential = {
 		}
 		allow = {
-			is_at_war = no
+			#is_at_war = no
+			always = no
 		}
 	}
 }
@@ -58,9 +59,10 @@ can_add_province_to_hre = {
 can_remove_province_from_hre = {
 	condition = {
 		potential = {
-			owner = {
-				ai = yes
-			}
+			# owner = {
+			# 	ai = yes
+			# }
+			ai = yes
 		}
 		allow = {
 			owner = {
@@ -160,6 +162,24 @@ can_move_capital = {
 		}
 		allow = {
 			always = no
+		}
+	}
+	condition = {
+		tooltip = "h_tooltip_move_capital"
+		potential = {
+			FROM = {
+				is_colonial_nation = no
+			}
+		}
+		allow = {
+			NOT = {
+				OR = {
+					continent = south_america
+					continent = north_america
+					region = australia_region
+					region = oceanea_region
+				}
+			}
 		}
 	}
 }
