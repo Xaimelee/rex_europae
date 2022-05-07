@@ -2936,34 +2936,34 @@ estate_burghers_indebted_to_burghers = {
 	loyalty = 0.05
 	influence = 0.05
 	on_granted = {
-		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
+		custom_tooltip = h_estate_burghers_indebted_to_burghers_effect_tooltip
 		add_mercantilism = -1
 		tooltip = {
 			add_inflation = 0.5
 		}
 		hidden_effect = {
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2.5
 				duration = 60
 				estate_loan = yes
 			}
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2.5
 				duration = 60
 				estate_loan = yes
 			}
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2.5
 				duration = 60
 				estate_loan = yes
 			}
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2.5
 				duration = 60
 				estate_loan = yes
 			}
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2.5
 				duration = 60
 				estate_loan = yes
 			}
