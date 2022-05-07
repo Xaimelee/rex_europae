@@ -1733,14 +1733,29 @@ on_dismantle_revolution = {
 
 # province
 on_adm_development = {
+	#Additions
+	add_province_modifier = {
+		name = rex_develop_cooldown
+		duration = 365
+	}
 }
 
 # province
 on_dip_development = {
+	#Additions
+	add_province_modifier = {
+		name = rex_develop_cooldown
+		duration = 365
+	}
 }
 
 # province
 on_mil_development = {
+	#Additions
+	add_province_modifier = {
+		name = rex_develop_cooldown
+		duration = 365
+	}
 }
 
 on_overextension_pulse = {

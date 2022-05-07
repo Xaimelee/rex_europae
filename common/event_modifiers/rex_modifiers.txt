@@ -5,7 +5,8 @@
 ########################################
 
 rex_develop_cooldown = {
-
+	local_build_time = 0.10
+	picture = "province_trade_power_value"
 }
 
 # Overide Modifiers

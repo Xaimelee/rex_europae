@@ -88,12 +88,54 @@ can_abandon_state = {
 }
 
 can_improve_tax = {
+	#Additions
+	condition = {
+		tooltip = "rex_develop_cooldown_tooltip"
+		potential = {
+
+		}
+		allow = {
+			ROOT = {
+				NOT = {
+					has_province_modifier = rex_develop_cooldown
+				}
+			}
+		}
+	}
 }
 
 can_improve_production = {
+	#Additions
+	condition = {
+		tooltip = "rex_develop_cooldown_tooltip"
+		potential = {
+
+		}
+		allow = {
+			ROOT = {
+				NOT = {
+					has_province_modifier = rex_develop_cooldown
+				}
+			}
+		}
+	}
 }
 
 can_improve_manpower = {
+	#Additions
+	condition = {
+		tooltip = "rex_develop_cooldown_tooltip"
+		potential = {
+
+		}
+		allow = {
+			ROOT = {
+				NOT = {
+					has_province_modifier = rex_develop_cooldown
+				}
+			}
+		}
+	}
 }
 
 can_exploit_tax = {
