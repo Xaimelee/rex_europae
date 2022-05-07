@@ -1234,6 +1234,7 @@ low_army_professionalism = {
 	#mercenary_manpower = 0.15
 	#Additions
 	loot_amount = 0.25
+	available_province_loot = 0.10
 }
 
 high_army_professionalism = {
