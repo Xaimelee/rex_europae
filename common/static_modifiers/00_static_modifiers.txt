@@ -1130,7 +1130,7 @@ inverse_religious_unity = {
 }
 
 total_occupation = {
-	war_exhaustion = 0.005					#increases exhaustion.
+	war_exhaustion = 0.01	#0.005				#increases exhaustion.
 }
 
 total_blockaded = {
