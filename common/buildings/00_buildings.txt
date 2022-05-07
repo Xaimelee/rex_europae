@@ -820,7 +820,7 @@ trade_depot = {
 }
 
 grand_shipyard = {
-	cost = 300
+	cost = 100 #300
 	time = 12
 
 	make_obsolete = shipyard
@@ -829,7 +829,7 @@ grand_shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 4
+		naval_forcelimit = 2 #4
 		ship_recruit_speed = -0.50
 		local_ship_repair = 0.50
 	}
