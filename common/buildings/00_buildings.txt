@@ -433,6 +433,9 @@ dock = {
 	}
 	modifier = {
 		local_sailors_modifier = 0.5
+		#Additions
+		local_manpower_modifier = 0.1
+		naval_forcelimit = 1
 	}
 	
 	on_built = {
