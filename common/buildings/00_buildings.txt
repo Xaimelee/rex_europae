@@ -1093,6 +1093,8 @@ town_hall = {
 		local_state_maintenance_modifier = -0.5
 		local_autonomy = -0.2
 		local_governing_cost = -0.5
+		#Additions
+		allowed_num_of_buildings = 1
 	}
 
 	on_built = {
