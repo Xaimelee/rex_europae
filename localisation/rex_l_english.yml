@@ -1,1 +1,4 @@
 ﻿l_english:
+ rex_develop_cooldown_tooltip:0 "The province must replenish resources before it's §YDevelopment§! can be improved again."
+ rex_develop_cooldown:0 "Improved Development"
+ rex_develop_cooldown_desc:0 "The province is currently replenishing resources."
