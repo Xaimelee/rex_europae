@@ -9138,6 +9138,7 @@ estate_church_one_faith_one_culture = {
 	is_valid = {
 	}
 	can_select = {
+		always = no
 	}
 	on_granted = {
 		custom_tooltip = estate_church_one_faith_one_culture_gta
