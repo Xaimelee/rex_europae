@@ -282,6 +282,9 @@ fort_15th = {
 	time = 30
 	modifier = {
 		fort_level = 2
+		#Additions
+		local_defensiveness = 0.05
+		development_cost = 0.05
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -549,6 +552,9 @@ fort_16th = {
 	make_obsolete = fort_15th
 	modifier = {
 		fort_level = 4
+		#Additions
+		local_defensiveness = 0.1
+		development_cost = 0.1
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -952,6 +958,9 @@ fort_17th = {
 
 	modifier = {
 		fort_level = 6
+		#Additions
+		local_defensiveness = 0.15
+		development_cost = 0.15
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1319,6 +1328,9 @@ fort_18th = {
 
 	modifier = {
 		fort_level = 8
+		#Additions
+		local_defensiveness = 0.2
+		development_cost = 0.2
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1358,10 +1370,10 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 400
+	cost = 400 #500
 	time = 60
 	modifier = {
-		trade_goods_size = 0.8
+		trade_goods_size = 0.8 #1
 	}
 }
 
