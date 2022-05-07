@@ -147,7 +147,9 @@ inquisitor = {
 	allow_only_owner_religion = yes
 	
 	# Bonus
-	global_missionary_strength = 0.03 #0.02
+	global_missionary_strength = 0.02
+	#Additions
+	missionary_maintenance_cost = -0.10
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
