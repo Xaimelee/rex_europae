@@ -272,7 +272,8 @@ colonial_governor = {
 	monarch_power = DIP
 	
 	# Bonus
-	global_tariffs = 0.10
+	#global_tariffs = 0.10
+	global_colonial_growth = 15
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
