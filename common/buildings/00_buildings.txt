@@ -608,7 +608,7 @@ naval_battery = {
 cathedral = {
 	make_obsolete = temple
 
-	cost = 400
+	cost = 400 #300
 	time = 12
 	modifier = {
 		local_missionary_strength = 0.03
@@ -692,11 +692,13 @@ cathedral = {
 
 
 university = {
-	cost = 300
+	cost = 200 #300
 	time = 12
 	modifier = {
-		local_development_cost = -0.20
+		local_development_cost = -0.05 #-0.20
 		allowed_num_of_buildings = 1
+		#Additions
+		local_institution_spread = 0.25
 	}
 
 	on_built = {
