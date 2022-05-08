@@ -1,0 +1,495 @@
+##Nobles
+rex_nobles_horse_stock = {
+	icon = privilege_raise_host
+	max_absolutism = -10
+	land_share = 10
+	loyalty = 0
+	influence = 0.2
+	is_valid = {  
+
+	}						
+	can_select = {  
+		legitimacy = 10
+	} 					
+	on_granted = {  
+		add_legitimacy = -10
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+
+	} 					
+	on_invalid = {  
+
+	}
+	benefits = {
+		cavalry_power = 0.1
+		cav_to_inf_ratio = 0.1
+	}			
+	penalties = { 
+
+	}
+	mechanics = {
+		exempt_from_seize_land
+	}
+	modifier_by_land_ownership = {
+		cavalry_cost = -0.15
+	}					
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
+rex_nobles_standing_army = {
+	icon = privilege_recruit_rajput_general
+	max_absolutism = -10
+	land_share = 5
+	loyalty = -0.1
+	influence = 0
+	is_valid = {  
+
+	}						
+	can_select = {  
+
+	} 					
+	on_granted = {  
+
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+
+	} 					
+	on_invalid = {  
+
+	} 			
+	benefits = {
+		special_unit_forcelimit = 0.25
+	}		
+	penalties = { 
+
+	}
+	mechanics = {
+	}
+	modifier_by_land_ownership = {
+
+	}					
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
+##Burghers
+
+rex_burghers_infrastructure_effort = {
+	icon = privilege_make_generous_donation
+	max_absolutism = -0
+	land_share = 5
+	loyalty = -0
+	influence = 0
+	is_valid = {  
+
+	}						
+	can_select = {  
+		
+	} 					
+	on_granted = {  
+		
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+
+	} 					
+	on_invalid = {  
+
+	} 	
+
+	benefits = {
+		build_time = -0.33
+		global_regiment_cost = 0.1
+		global_ship_cost = 0.1
+	}
+	penalties = { 
+
+	}
+	mechanics = {
+		exempt_from_seize_land
+	}
+	modifier_by_land_ownership = {
+		build_cost = -0.1
+		manpower_recovery_speed = -0.2
+		sailors_recovery_speed = -0.2
+	}
+	cooldown_years = 5	
+	on_cooldown_expires = {
+		remove_estate_privilege = rex_burghers_infrastructure_effort
+	}		
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
+rex_burghers_naval_artillery = {
+	icon = privilege_comission_merchant_ships_for_war
+	max_absolutism = -0
+	land_share = 5
+	loyalty = -0.05
+	influence = 0
+	is_valid = {  
+		num_of_heavy_ship = 10
+	}						
+	can_select = {  
+		
+	} 					
+	on_granted = {  
+		
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+
+	} 					
+	on_invalid = {  
+		remove_estate_privilege = rex_burghers_naval_artillery
+	} 	
+
+	benefits = {
+		backrow_artillery_damage = 0.10
+	}
+	penalties = { 
+
+	}
+	mechanics = {
+		exempt_from_seize_land
+	}
+	modifier_by_land_ownership = {
+		heavy_ship_cost = 0.25
+	}					
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
+rex_burghers_recruit_marines = {
+	icon = privilege_cawa_peacekeeper
+	max_absolutism = -5
+	land_share = 0
+	loyalty = 0.0
+	influence = 0.10
+	is_valid = {  
+		OR = {
+			navy_size = 50
+			full_idea_group = maritime_ideas
+		}
+	}						
+	can_select = {  
+	} 					
+	on_granted = {  
+		
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+
+	} 					
+	on_invalid = {  
+		remove_estate_privilege = rex_burghers_recruit_marines
+	} 	
+
+	benefits = {
+		allowed_marine_fraction = 0.25
+	}
+	penalties = { 
+
+	}
+	mechanics = {
+		
+	}
+	modifier_by_land_ownership = {
+		global_manpower_modifier = -0.10
+		global_sailors_modifier = 0.33
+	}					
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
+rex_burghers_trained_marines = {
+	icon = privilege_cawa_peacekeeper
+	max_absolutism = -0
+	land_share = 5
+	loyalty = 0.05
+	influence = 0.1
+	is_valid = {  
+		num_of_marines = 1
+	}						
+	can_select = {  
+		
+	} 					
+	on_granted = {  
+		add_country_modifier = {
+			name = rex_trained_marines
+			duration = -1
+		}
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+		remove_country_modifier = rex_trained_marines
+	} 					
+	on_invalid = {  
+		remove_country_modifier = rex_trained_marines
+		remove_estate_privilege = rex_burghers_trained_marines
+	} 	
+
+	benefits = {
+		
+	}
+	penalties = { 
+
+	}
+	mechanics = {
+		
+	}
+	modifier_by_land_ownership = {
+		
+	}					
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
+## Clergy
+# = {
+# 	max_absolutism = -0
+# 	land_share = 0
+# 	loyalty = -0
+# 	influence = 0.
+# 	is_valid = {  
+
+# 	}						
+# 	can_select = {  
+# 		
+# 	} 					
+# 	on_granted = {  
+# 		
+# 	} 					
+# 	can_revoke = {  
+
+# 	} 					
+# 	on_revoked = {  
+
+# 	} 					
+# 	on_invalid = {  
+
+# 	} 	
+
+	# benefits = {
+
+	# }
+# 	penalties = { 
+
+# 	}
+# 	mechanics = {
+# 		
+# 	}
+# 	modifier_by_land_ownership = {
+# 		
+# 	}					
+# 	ai_will_do = { 
+# 		factor = 1
+# 	}
+# }
+
+rex_clergy_council = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	land_share = 0
+	loyalty = 0.1
+	influence = 0.1
+	is_valid = {  
+
+	}						
+	can_select = {  
+
+	} 					
+	on_granted = {  
+
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+
+	} 					
+	on_invalid = {  
+
+	} 	
+
+	benefits = {
+
+	}
+	penalties = { 
+		nobles_loyalty_modifier = -0.05
+		burghers_loyalty_modifier = -0.05
+	}
+	mechanics = {
+		exempt_from_seize_land
+	}
+	modifier_by_land_ownership = {
+		legitimacy = 1
+	}					
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
+rex_clergy_tax = {
+	icon = privilege_royal_authority
+	max_absolutism = 5
+	land_share = 0
+	loyalty = -0.10
+	influence = -0.1
+	is_valid = {  
+
+	}						
+	can_select = {  
+		legitimacy = 10
+	} 					
+	on_granted = {
+		add_estate_loyalty = {
+			estate = estate_church
+			loyalty = -10
+		}
+		add_legitimacy = -10
+		add_years_of_income = 1
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+
+	} 					
+	on_invalid = {  
+
+	} 	
+
+	benefits = {
+
+	}
+	penalties = { 
+		global_unrest = 1
+		legitimacy = -0.5
+	}
+	mechanics = {
+		
+	}
+	modifier_by_land_ownership = {
+		global_tax_modifier = 0.25
+		missionary_maintenance_cost = 1
+	}
+	cooldown_years = 5			
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
+rex_clergy_religious_colonies = {
+	icon = privilege_grant_new_world_charter
+	max_absolutism = -0
+	land_share = 0
+	loyalty = 0.1
+	influence = 0.05
+	is_valid = {  
+		OR = {
+			full_idea_group = expansion_ideas
+			full_idea_group = religious_ideas
+		}
+	}						
+	can_select = {  
+		
+	} 					
+	on_granted = {  
+		
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+
+	} 					
+	on_invalid = {  
+		remove_estate_privilege = rex_clergy_religious_colonies
+	} 	
+
+	benefits = {
+		expel_minorities_cost = -0.33
+		native_uprising_chance = 1
+	}
+	penalties = { 
+
+	}
+	mechanics = {
+		
+	}
+	modifier_by_land_ownership = {
+		global_colonial_growth = 25
+	}					
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
+rex_clergy_religious_marines = {
+	icon = privilege_cawa_peacekeeper
+	max_absolutism = 0
+	land_share = 5
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {  
+		num_of_marines = 1
+		has_idea_group = religious_ideas
+	}						
+	can_select = {  
+		
+	} 					
+	on_granted = {  
+		add_country_modifier = {
+			name = rex_religious_marines
+			duration = -1
+		}
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+		remove_country_modifier = rex_religious_marines
+	} 					
+	on_invalid = {  
+		remove_country_modifier = rex_religious_marines
+		remove_estate_privilege = rex_clergy_religious_marines
+	} 	
+
+	benefits = {
+
+	}
+	penalties = { 
+
+	}
+	mechanics = {
+		
+	}
+	modifier_by_land_ownership = {
+		
+	}					
+	ai_will_do = { 
+		factor = 1
+	}	
+}

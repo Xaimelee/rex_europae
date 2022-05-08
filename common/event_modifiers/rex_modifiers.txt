@@ -9,6 +9,17 @@ rex_develop_cooldown = {
 	picture = "province_trade_power_value"
 }
 
+rex_trained_marines = {
+	drill_decay_modifier = -0.25
+	infantry_shock = 1
+	is_marine_modifier = yes
+}
+
+rex_religious_marines = {
+	land_morale = 0.15
+	is_marine_modifier = yes
+}
+
 # Overide Modifiers
 
 the_unknown_frontier = {
