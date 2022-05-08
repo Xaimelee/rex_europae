@@ -357,10 +357,10 @@ estate_church =
 		estate_church_scholar_connections
 		estate_church_integrated_school
 		h_church_estate_call_to_jihad
-		rex_clergy_council
-		rex_clergy_tax
-		rex_clergy_religious_colonies
-		rex_clergy_religious_marines
+		rex_estate_church_council
+		rex_estate_church_tax
+		rex_estate_church_religious_colonies
+		rex_estate_church_religious_marines
 	}
 
 	agendas = {

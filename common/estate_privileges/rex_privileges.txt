@@ -1,5 +1,5 @@
 ##Nobles
-rex_nobles_horse_stock = {
+rex_estate_nobles_horse_stock = {
 	icon = privilege_raise_host
 	max_absolutism = -10
 	land_share = 10
@@ -40,7 +40,7 @@ rex_nobles_horse_stock = {
 	}
 }
 
-rex_nobles_standing_army = {
+rex_estate_nobles_standing_army = {
 	icon = privilege_recruit_rajput_general
 	max_absolutism = -5
 	land_share = 5
@@ -80,9 +80,53 @@ rex_nobles_standing_army = {
 	}
 }
 
+rex_estate_nobles_fortifications = {
+	icon = privilege_limited_war_support
+	max_absolutism = -5
+	land_share = 0
+	loyalty = 0
+	influence = 0.1
+	is_valid = {  
+
+	}						
+	can_select = {  
+		
+	} 					
+	on_granted = {  
+		
+	} 					
+	can_revoke = {  
+
+	} 					
+	on_revoked = {  
+
+	} 					
+	on_invalid = {  
+
+	} 	
+
+	benefits = {
+		defensiveness = 0.10
+		garrison_growth = 0.33
+		fort_maintenance_modifier = 0.50
+	}
+	penalties = { 
+
+	}
+	mechanics = {
+		
+	}
+	modifier_by_land_ownership = {
+
+	}					
+	ai_will_do = { 
+		factor = 1
+	}
+}
+
 ##Burghers
 
-rex_burghers_infrastructure_effort = {
+rex_estate_burghers_infrastructure_effort = {
 	icon = privilege_make_generous_donation
 	max_absolutism = -0
 	land_share = 5
@@ -123,14 +167,14 @@ rex_burghers_infrastructure_effort = {
 	}
 	cooldown_years = 10	
 	on_cooldown_expires = {
-		remove_estate_privilege = rex_burghers_infrastructure_effort
+		remove_estate_privilege = rex_estate_burghers_infrastructure_effort
 	}		
 	ai_will_do = { 
 		factor = 1
 	}
 }
 
-rex_burghers_naval_artillery = {
+rex_estate_burghers_naval_artillery = {
 	icon = privilege_comission_merchant_ships_for_war
 	max_absolutism = -0
 	land_share = 5
@@ -152,7 +196,7 @@ rex_burghers_naval_artillery = {
 
 	} 					
 	on_invalid = {  
-		remove_estate_privilege = rex_burghers_naval_artillery
+		remove_estate_privilege = rex_estate_burghers_naval_artillery
 	} 	
 
 	benefits = {
@@ -172,7 +216,7 @@ rex_burghers_naval_artillery = {
 	}
 }
 
-rex_burghers_recruit_marines = {
+rex_estate_burghers_recruit_marines = {
 	icon = privilege_cawa_peacekeeper
 	max_absolutism = -5
 	land_share = 0
@@ -196,7 +240,7 @@ rex_burghers_recruit_marines = {
 
 	} 					
 	on_invalid = {  
-		remove_estate_privilege = rex_burghers_recruit_marines
+		remove_estate_privilege = rex_estate_burghers_recruit_marines
 	} 	
 
 	benefits = {
@@ -217,7 +261,7 @@ rex_burghers_recruit_marines = {
 	}
 }
 
-rex_burghers_trained_marines = {
+rex_estate_burghers_trained_marines = {
 	icon = privilege_cawa_peacekeeper
 	max_absolutism = -0
 	land_share = 5
@@ -243,7 +287,7 @@ rex_burghers_trained_marines = {
 	} 					
 	on_invalid = {  
 		remove_country_modifier = rex_trained_marines
-		remove_estate_privilege = rex_burghers_trained_marines
+		remove_estate_privilege = rex_estate_burghers_trained_marines
 	} 	
 
 	benefits = {
@@ -305,7 +349,7 @@ rex_burghers_trained_marines = {
 # 	}
 # }
 
-rex_clergy_council = {
+rex_estate_church_council = {
 	icon = privilege_recruit_minister
 	max_absolutism = -10
 	land_share = 0
@@ -346,7 +390,7 @@ rex_clergy_council = {
 	}
 }
 
-rex_clergy_tax = {
+rex_estate_church_tax = {
 	icon = privilege_royal_authority
 	max_absolutism = 0
 	land_share = 0
@@ -389,7 +433,7 @@ rex_clergy_tax = {
 	}
 }
 
-rex_clergy_religious_colonies = {
+rex_estate_church_religious_colonies = {
 	icon = privilege_grant_new_world_charter
 	max_absolutism = -0
 	land_share = 0
@@ -414,7 +458,7 @@ rex_clergy_religious_colonies = {
 
 	} 					
 	on_invalid = {  
-		remove_estate_privilege = rex_clergy_religious_colonies
+		remove_estate_privilege = rex_estate_church_religious_colonies
 	} 	
 
 	benefits = {
@@ -435,7 +479,7 @@ rex_clergy_religious_colonies = {
 	}
 }
 
-rex_clergy_religious_marines = {
+rex_estate_church_religious_marines = {
 	icon = privilege_cawa_peacekeeper
 	max_absolutism = 0
 	land_share = 5
@@ -462,7 +506,7 @@ rex_clergy_religious_marines = {
 	} 					
 	on_invalid = {  
 		remove_country_modifier = rex_religious_marines
-		remove_estate_privilege = rex_clergy_religious_marines
+		remove_estate_privilege = rex_estate_church_religious_marines
 	} 	
 
 	benefits = {
