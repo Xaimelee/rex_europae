@@ -367,7 +367,7 @@ army_organiser = {
 	
 	# Bonus
 	#land_forcelimit_modifier = 0.10
-	yearly_army_professionalism = 0.02
+	yearly_army_professionalism = 0.002
 	
 	skill_scaled_modifier = { meritocracy = 0.25 }
 
