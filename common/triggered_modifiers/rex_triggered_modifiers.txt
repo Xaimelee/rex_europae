@@ -17,3 +17,22 @@ rex_small_nation = {
 	advisor_cost = -0.10
 	manpower_recovery_speed = 0.20
 }
+
+rex_player_war = {
+	potential = {
+		OR = {
+			current_age = age_of_discovery
+			current_age = age_of_reformation
+		}
+	}
+	trigger = {
+		was_player = yes
+		is_at_war = yes
+		any_country = { 
+			was_player = yes
+			war_with = ROOT
+		}
+	}
+
+	province_warscore_cost = 0.25
+}
