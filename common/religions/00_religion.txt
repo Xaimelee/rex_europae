@@ -531,7 +531,9 @@ christian = {
 		}
 		country = {
 			tolerance_heretic = 2
-			advisor_pool = 1
+			#advisor_pool = 1
+			#Additions
+			advisor_cost = -0.05
 		}
 		
 		country_as_secondary = {
