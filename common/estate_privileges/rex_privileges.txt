@@ -157,15 +157,15 @@ rex_burghers_naval_artillery = {
 
 	benefits = {
 		backrow_artillery_damage = 0.10
+		artillery_bonus_vs_fort = 1
 	}
 	penalties = { 
-
+		heavy_ship_cost = 0.25
 	}
 	mechanics = {
-		exempt_from_seize_land
+
 	}
 	modifier_by_land_ownership = {
-		heavy_ship_cost = 0.25
 	}					
 	ai_will_do = { 
 		factor = 1
