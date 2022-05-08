@@ -633,10 +633,10 @@ exploration_ideas = {
 		colonist_placement_chance = 0.03
 	}
 
-	quest_for_the_new_world	= {
-		may_explore = yes
-		free_leader_pool = 1
-	}
+	# quest_for_the_new_world	= {
+	# 	may_explore = yes
+	# 	free_leader_pool = 1
+	# }
 
 	colonial_ventures = {
 		colonists = 1
