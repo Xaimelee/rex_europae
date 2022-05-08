@@ -663,8 +663,8 @@ christian = {
 			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
 
 			icon_michael = {
-				discipline = 0.05
-				manpower_recovery_speed = 0.1
+				discipline = 0.025 #0.05
+				manpower_recovery_speed = 0.15 #0.1
 				
 				allow = {
 					always = yes
@@ -715,8 +715,8 @@ christian = {
 			}
 
 			icon_pancreator = {
-				development_cost = -0.10
-				build_cost = -0.1
+				development_cost = -0.05 #-0.1
+				build_cost = -0.05 #-0.1
 				
 				allow = {
 					always = yes
@@ -728,7 +728,7 @@ christian = {
 	
 			icon_nicholas = {
 				improve_relation_modifier = 0.25
-				ae_impact = -0.1
+				ae_impact = -0.15 #-0.1
 				allow = {
 					always = yes
 				}
