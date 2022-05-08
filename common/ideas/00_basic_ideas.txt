@@ -1180,7 +1180,8 @@ influence_ideas = {
 		monthly_heir_claim_increase = 0.2
 	}
 	diplomatic_influence = {
-		advisor_cost = -0.15
+		advisor_cost = -0.1
+		advisor_pool = 1
 	}
 	postal_service = {
 		war_exhaustion = -0.05
