@@ -1,0 +1,19 @@
+rex_small_nation = {
+	potential = {
+		NOT = { 
+			total_development = 250
+			is_great_power = yes
+		}	
+	}
+
+	trigger = {
+		NOT = { 
+			total_development = 250
+			is_great_power = yes
+		}
+	}
+
+	ae_impact = -0.20
+	advisor_cost = -0.10
+	manpower_recovery_speed = 0.20
+}
