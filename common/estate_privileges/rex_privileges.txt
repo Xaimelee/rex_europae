@@ -108,7 +108,7 @@ rex_estate_nobles_fortifications = {
 	benefits = {
 		defensiveness = 0.10
 		garrison_growth = 0.33
-		fort_maintenance_modifier = 0.50
+		fort_maintenance_modifier = 0.25
 	}
 	penalties = { 
 
@@ -160,7 +160,6 @@ rex_estate_burghers_infrastructure_effort = {
 
 	}
 	mechanics = {
-		exempt_from_seize_land
 	}
 	modifier_by_land_ownership = {
 
@@ -225,7 +224,7 @@ rex_estate_burghers_recruit_marines = {
 	is_valid = {  
 		OR = {
 			navy_size = 50
-			full_idea_group = maritime_ideas
+			full_idea_group = naval_ideas
 		}
 	}						
 	can_select = {  
@@ -418,7 +417,7 @@ rex_estate_church_tax = {
 
 	}
 	penalties = { 
-		global_unrest = 3
+		global_unrest = 2
 	}
 	mechanics = {
 		

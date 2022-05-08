@@ -353,6 +353,7 @@ spy_ideas = {
 	}
 	agent_training = {
 		years_of_nationalism = -10
+		monthly_splendor = 3
 	}
 	privateers = {
 		loot_amount = 0.33
