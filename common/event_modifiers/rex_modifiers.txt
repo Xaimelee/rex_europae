@@ -27,10 +27,6 @@ rex_last_stand = {
 	siege_ability = 0.10
 }
 
-rex_new_world = {
-	local_development_cost = 0.30
-}
-
 # Overide Modifiers
 
 army_reform = {
