@@ -945,6 +945,8 @@ quantity_ideas = {
 	}
 	mercenary_contracts = {
 		mercenary_manpower = 0.50
+		merc_maintenance_modifier = -0.25
+		mercenary_cost = -0.10
 	}
 	garrison_conscription = {
 		free_leader_pool = 1
