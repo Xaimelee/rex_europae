@@ -1,8 +1,11 @@
 ﻿l_english:
+ rex_last_stand_title:0 "Rally the Country"
+ rex_last_stand_desc:0 "We edge closer to defeat each day, the country must be rallied if we ever hope to change the tide."
  rex_develop_cooldown_tooltip:0 "The province must replenish resources before it's §YDevelopment§! can be improved again."
  rex_develop_cooldown:0 "Improved Development"
  rex_trained_marines:0 "Trained Marines"
  rex_religious_marines:0 "Indoctrinated Marines"
+ rex_last_stand:0 "Rallied"
  rex_estate_church_council:0 "Clergy on the Council"
  rex_estate_church_council_desc:0 ""
  rex_estate_church_tax:0 "Tax on Church Donations"

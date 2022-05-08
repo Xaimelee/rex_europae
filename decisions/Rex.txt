@@ -1,0 +1,31 @@
+country_decisions = {
+	rex_last_stand = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = rex_last_stand_enacted }
+		}
+		allow = {
+			was_player = yes
+			war_exhaustion = 5
+			is_in_war = {
+				defender_leader = ROOT
+				war_score = -50
+			}
+			NOT = {
+				capital_scope = {
+					controlled_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = rex_last_stand
+				duration = 3650
+			}
+			set_country_flag = rex_last_stand_enacted
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

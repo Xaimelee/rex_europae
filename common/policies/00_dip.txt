@@ -1073,7 +1073,7 @@ black_chamber_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	siege_ability = 0.25
+	siege_ability = 0.25	
 	leader_siege = 1
 
 	ai_will_do = {
