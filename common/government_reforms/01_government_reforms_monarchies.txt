@@ -639,6 +639,7 @@ prussian_monarchy = {
 			religion = reformed
 			religion = hussite
 			religion = anglican
+			tag = BRA
 		}
 	}
 	valid_for_nation_designer = yes
