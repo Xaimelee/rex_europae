@@ -3,7 +3,7 @@ rex_nobles_horse_stock = {
 	icon = privilege_raise_host
 	max_absolutism = -10
 	land_share = 10
-	loyalty = 0
+	loyalty = -0.1
 	influence = 0.2
 	is_valid = {  
 
@@ -25,7 +25,6 @@ rex_nobles_horse_stock = {
 	}
 	benefits = {
 		cavalry_power = 0.1
-		cav_to_inf_ratio = 0.1
 	}			
 	penalties = { 
 
@@ -34,7 +33,7 @@ rex_nobles_horse_stock = {
 		exempt_from_seize_land
 	}
 	modifier_by_land_ownership = {
-		cavalry_cost = -0.15
+		cavalry_cost = -0.1
 	}					
 	ai_will_do = { 
 		factor = 1
@@ -43,10 +42,10 @@ rex_nobles_horse_stock = {
 
 rex_nobles_standing_army = {
 	icon = privilege_recruit_rajput_general
-	max_absolutism = -10
+	max_absolutism = -5
 	land_share = 5
-	loyalty = -0.1
-	influence = 0
+	loyalty = -0.05
+	influence = 0.05
 	is_valid = {  
 
 	}						
@@ -109,9 +108,9 @@ rex_burghers_infrastructure_effort = {
 	} 	
 
 	benefits = {
-		build_time = -0.33
-		global_regiment_cost = 0.1
-		global_ship_cost = 0.1
+		build_cost = -0.1
+		manpower_recovery_speed = -0.25
+		sailors_recovery_speed = -0.25
 	}
 	penalties = { 
 
@@ -120,11 +119,9 @@ rex_burghers_infrastructure_effort = {
 		exempt_from_seize_land
 	}
 	modifier_by_land_ownership = {
-		build_cost = -0.1
-		manpower_recovery_speed = -0.2
-		sailors_recovery_speed = -0.2
+
 	}
-	cooldown_years = 5	
+	cooldown_years = 10	
 	on_cooldown_expires = {
 		remove_estate_privilege = rex_burghers_infrastructure_effort
 	}		
@@ -310,7 +307,7 @@ rex_burghers_trained_marines = {
 
 rex_clergy_council = {
 	icon = privilege_recruit_minister
-	max_absolutism = -5
+	max_absolutism = -10
 	land_share = 0
 	loyalty = 0.1
 	influence = 0.1
@@ -334,17 +331,15 @@ rex_clergy_council = {
 	} 	
 
 	benefits = {
-
+		legitimacy = 1
 	}
-	penalties = { 
-		nobles_loyalty_modifier = -0.05
-		burghers_loyalty_modifier = -0.05
+	penalties = {
+
 	}
 	mechanics = {
 		exempt_from_seize_land
 	}
 	modifier_by_land_ownership = {
-		legitimacy = 1
 	}					
 	ai_will_do = { 
 		factor = 1
@@ -353,7 +348,7 @@ rex_clergy_council = {
 
 rex_clergy_tax = {
 	icon = privilege_royal_authority
-	max_absolutism = 5
+	max_absolutism = 0
 	land_share = 0
 	loyalty = -0.10
 	influence = -0.1
@@ -361,14 +356,8 @@ rex_clergy_tax = {
 
 	}						
 	can_select = {  
-		legitimacy = 10
 	} 					
 	on_granted = {
-		add_estate_loyalty = {
-			estate = estate_church
-			loyalty = -10
-		}
-		add_legitimacy = -10
 		add_years_of_income = 1
 	} 					
 	can_revoke = {  
@@ -385,8 +374,7 @@ rex_clergy_tax = {
 
 	}
 	penalties = { 
-		global_unrest = 1
-		legitimacy = -0.5
+		global_unrest = 3
 	}
 	mechanics = {
 		
