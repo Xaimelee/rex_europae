@@ -22,13 +22,132 @@ rex_religious_marines = {
 
 # Overide Modifiers
 
+army_reform = {
+	land_morale = 0.10
+	mil_tech_cost_modifier = -0.10
+}
+
+naval_reform = {
+	naval_morale = 0.10
+	dip_tech_cost_modifier = -0.10
+}
+
+military_reform = {
+	dip_tech_cost_modifier = -0.05
+	mil_tech_cost_modifier = -0.05
+	naval_morale = 0.05
+	land_morale = 0.05
+}
+
+counter_reformation = {
+	global_heretic_missionary_strength = 0.03
+	papal_influence = 0.5
+	missionaries = 2
+	tolerance_heretic = -2
+	religion = yes
+}
+
+the_theme_system = {
+	governing_capacity = 250
+	global_autonomy = -0.05
+}
+
+master_of_mint_boost = {
+	inflation_reduction = 0.2
+}
+
+navigator_boost = {
+	range = 0.25
+	naval_maintenance_modifier = -0.1
+}
+
+grand_captain_boost = {
+	land_morale = 0.10
+}
+
+army_organiser_boost = {
+	land_forcelimit_modifier = 0.2
+}
+
+commandant_boost = {
+	discipline = 0.05
+}
+
+quartermaster_boost = {
+	reinforce_speed = 0.25
+}
+
+recruitmaster_boost = {
+	global_manpower_modifier = 0.2
+}
+
 the_unknown_frontier = {
 	tax_income = 48
 	colonist_placement_chance = 0.2
 }
 
+inquisitor_boost = {
+	global_spy_defence = 0.1
+	missionaries = 1
+}
+
+papal_sanction_for_church_taxes = {
+	global_tax_modifier = 0.10
+	build_cost = -0.05
+	religion = yes
+}
+
+papal_indulgence = {
+	legitimacy = 1
+	horde_unity = 1
+	meritocracy = 1
+	devotion = 1
+	republican_tradition = 0.2
+	improve_relation_modifier = 0.2
+	religion = yes
+}
+
+papal_blessing = {
+	prestige = 1
+	land_morale = 0.05
+	religion = yes
+}
+
+papal_sanction_for_holy_war = {
+	manpower_recovery_speed = 0.10
+	land_maintenance_modifier = -0.05
+	religion = yes
+}
+
+hun_black_army = {
+	mercenary_discipline = 0.1
+	army_tradition = 0.25
+}
+
 bur_king_of_franks = {
 	fire_damage = 0.15
+}
+
+full_elan = {
+	land_morale = 0.1
+}
+
+relentless_drill = {
+	land_morale = 0.1
+}
+
+joined_league_war = {
+	army_tradition = 0.25
+	mil_tech_cost_modifier = -0.05
+}
+
+completing_the_reconquista = {
+	land_morale = 0.1
+	manpower_recovery_speed = 0.1
+}
+
+estate_cossacks_exploration_expedition_mod = {
+	local_development_cost = -0.1
 }
 
 #
