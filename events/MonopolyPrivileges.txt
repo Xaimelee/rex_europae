@@ -263,9 +263,6 @@ country_event = {
 		desc = monopoly_privileges.5.d.nobles
 	}
 	desc = {
-		trigger = { has_estate_privilege = estate_polish_nobility_monopoly_of_metals }
-		desc = monopoly_privileges.5.d.polish
-	}
 	desc = {
 		trigger = { has_estate_privilege = estate_rajput_monopoly_of_metals }
 		desc = monopoly_privileges.5.d.rajput
@@ -282,7 +279,6 @@ country_event = {
 		remove_estate_monopoly_modifier = { privilege = estate_nobles_monopoly_of_metals }
 		remove_estate_monopoly_modifier = { privilege = estate_rajput_monopoly_of_metals }
 		remove_estate_monopoly_modifier = { privilege = estate_maratha_monopoly_of_metals }
-		remove_estate_monopoly_modifier = { privilege = estate_polish_nobility_monopoly_of_metals }
 	}
 	
 	option = {
@@ -290,7 +286,6 @@ country_event = {
 		reapply_estate_privilege = { privilege = estate_nobles_monopoly_of_metals }
 		reapply_estate_privilege = { privilege = estate_rajput_monopoly_of_metals }
 		reapply_estate_privilege = { privilege = estate_maratha_monopoly_of_metals }
-		reapply_estate_privilege = { privilege = estate_polish_nobility_monopoly_of_metals }
 	}
 	option = {
 		name = monopoly_privileges.1.b
@@ -307,10 +302,6 @@ country_event = {
 		h_remove_estate_privilege = {
 			privilege = estate_maratha_monopoly_of_metals
 			estate = estate_maratha
-		}
-		h_remove_estate_privilege = {
-			privilege = estate_polish_nobility_monopoly_of_metals
-			estate = estate_polish_nobility
 		}
 		#hidden_effect = {
 			# every_owned_province = {
@@ -339,10 +330,6 @@ country_event = {
 		desc = monopoly_privileges.6.d.nobles
 	}
 	desc = {
-		trigger = { has_estate_privilege = estate_lithuanian_nobility_monopoly_of_livestock }
-		desc = monopoly_privileges.6.d.lithuanian
-	}
-	desc = {
 		trigger = { has_estate_privilege = estate_rajput_monopoly_of_livestock }
 		desc = monopoly_privileges.6.d.rajput
 	}
@@ -358,7 +345,7 @@ country_event = {
 		remove_estate_monopoly_modifier = { privilege = estate_nobles_monopoly_of_livestock }
 		remove_estate_monopoly_modifier = { privilege = estate_rajput_monopoly_of_livestock }
 		remove_estate_monopoly_modifier = { privilege = estate_maratha_monopoly_of_livestock }
-		remove_estate_monopoly_modifier = { privilege = estate_lithuanian_nobility_monopoly_of_livestock }
+		#
 	}
 	
 	option = {
@@ -366,7 +353,7 @@ country_event = {
 		reapply_estate_privilege = { privilege = estate_nobles_monopoly_of_livestock }
 		reapply_estate_privilege = { privilege = estate_rajput_monopoly_of_livestock }
 		reapply_estate_privilege = { privilege = estate_maratha_monopoly_of_livestock }
-		reapply_estate_privilege = { privilege = estate_lithuanian_nobility_monopoly_of_livestock }
+		#
 
 	}
 	option = {
@@ -384,10 +371,6 @@ country_event = {
 		h_remove_estate_privilege = {
 			privilege = estate_maratha_monopoly_of_livestock
 			estate = estate_maratha
-		}
-		h_remove_estate_privilege = {
-			privilege = estate_lithuanian_nobility_monopoly_of_livestock
-			estate = estate_lithuanian_nobility
 		}
 		# hidden_effect = {
 		# 	every_owned_province = {

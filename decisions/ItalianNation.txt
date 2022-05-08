@@ -38,7 +38,6 @@ country_decisions = {
 				tag = JAI
 				tag = TTS
 				tag = RAV
-				tag = LOM
 			}
 			OR = {
 				ai = no

@@ -2047,21 +2047,6 @@ h_merc_likedeelers = {
 	}
 }
 
-h_merc_jaegers = {
-	regiments_per_development = 0.05
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.75
-	trigger = {
-		tag = AHU
-	}
-	modifier = {
-		discipline = 0.05
-		land_morale = 0.05
-	}
-}
-
 h_merc_landsknecht = {
 	regiments_per_development = 0.05
 	cavalry_weight = 0.0
@@ -2473,21 +2458,6 @@ h_merc_sileraioi = {
 	modifier = {
 		shock_damage_received = -0.1
 		infantry_power = 0.05
-	}
-}
-
-h_merc_lombard = {
-	regiments_per_development = 0.05
-	cavalry_weight = 0.0
-	artillery_weight = 0.0
-	cavalry_cap = 0
-	cost_modifier = 0.75
-	trigger = {
-		tag = LOM
-	}
-	modifier = {
-		land_morale = 0.1
-		reinforce_speed = 0.25
 	}
 }
 
@@ -3884,35 +3854,5 @@ merc_swiss_canton_mercenaries = {
 	}
 	modifier = {
 		discipline = 0.05
-	}
-}
-
-h_merc_dominion_minutemen = {
-    regiments_per_development = 0.05
-	#home_province = 165
-	cost_modifier = 0.75
-	sprites = { westerngfx_sprite_pack }
-	trigger = {
-		is_colonial_nation = yes
-		has_reform = h_reform_dominion
-	}
-	modifier = {
-		land_attrition = -0.10
-		movement_speed = 0.10
-	}
-}
-
-h_merc_colonial_militia = {
-    regiments_per_development = 0.05
-	#home_province = 165
-	cost_modifier = 0.75
-	sprites = { westerngfx_sprite_pack }
-	trigger = {
-		is_colonial_nation = yes
-		NOT = { has_reform = h_reform_dominion }
-	}
-	modifier = {
-		reinforce_speed = -0.10
-		recover_army_morale_speed = -0.05
 	}
 }
