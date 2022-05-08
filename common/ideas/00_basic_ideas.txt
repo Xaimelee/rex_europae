@@ -1069,10 +1069,10 @@ administrative_ideas = {
 	}
 	bookkeeping = {
 		stability_cost_modifier = -0.25
-		monthly_reform_progress = 0.10
+		monthly_reform_progress_modifier = 0.33
 	}
 	organised_mercenary_recruitment = {
-		state_maintenance_modifier = -0.10
+		state_maintenance_modifier = -0.25
 		administrative_efficiency = 0.05
 	}
 	administrative_efficiency_idea = {
@@ -1080,7 +1080,8 @@ administrative_ideas = {
 		land_attrition = -0.1
 	}
 	civil_servants = {
-		advisor_cost = -0.15
+		advisor_cost = -0.10
+		advisor_pool = 1
 	}
 
 	ai_will_do = {
