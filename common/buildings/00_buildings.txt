@@ -284,7 +284,7 @@ fort_15th = {
 		fort_level = 2
 		#Additions
 		local_defensiveness = 0.05
-		development_cost = 0.05
+		local_development_cost = 0.05
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -554,7 +554,7 @@ fort_16th = {
 		fort_level = 4
 		#Additions
 		local_defensiveness = 0.1
-		development_cost = 0.1
+		local_development_cost = 0.1
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -960,7 +960,7 @@ fort_17th = {
 		fort_level = 6
 		#Additions
 		local_defensiveness = 0.15
-		development_cost = 0.15
+		local_development_cost = 0.15
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1330,7 +1330,7 @@ fort_18th = {
 		fort_level = 8
 		#Additions
 		local_defensiveness = 0.2
-		development_cost = 0.2
+		local_development_cost = 0.2
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
