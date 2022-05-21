@@ -377,12 +377,12 @@ tur_conquest_of_middle_east = {
 			army_size_percentage = 0.85
 		}
 		effect = {
-			151 = {
+			if = {
 				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
+					NOT = { is_permanent_claim = 151 }
+					NOT = { is_core = 151 }
 				}
-				add_permanent_claim = ROOT
+				add_permanent_claim = 151
 			}
 			karaman_area = {
 				limit = {
