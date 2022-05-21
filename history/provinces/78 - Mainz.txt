@@ -18,7 +18,7 @@ discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 1
 
-1444.1.1 = { owner = HES add_core = HES add_controller = HES }
+1444.1.1 = { owner = HES add_core = HES controller = HES }
 1556.4.19 = { religion = protestant } # Ottheinrich converts the country to Calvinism
 1560.1.1 = { fort_15th = yes }
 1631.12.22 = { controller = SWE }

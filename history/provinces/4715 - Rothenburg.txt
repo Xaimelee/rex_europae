@@ -16,7 +16,7 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 
-1444.1.1 = { owner = HES add_core = HES add_controller = HES }
+1444.1.1 = { owner = HES add_core = HES controller = HES }
 #Reichsdeputationshauptschluss
 1803.2.25 = {
 	owner = BAV

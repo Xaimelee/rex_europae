@@ -20,7 +20,7 @@ discovered_by = ottoman
 
 is_city = yes
 
-1444.1.1 = { owner = HES add_core = HES add_controller = HES }
+1444.1.1 = { owner = HES add_core = HES controller = HES }
 1631.10.15 = { controller = SWE }
 1635.1.16 = { controller = WBG }
 1803.4.27 = {
