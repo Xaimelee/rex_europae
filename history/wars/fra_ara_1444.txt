@@ -1,4 +1,4 @@
-name = FRA-ARA"
+name = "FRA-ARA"
 war_goal = {
 	type = take_capital_imperial
 	casus_belli = cb_imperial
