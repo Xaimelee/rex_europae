@@ -1013,11 +1013,29 @@ expansion_ideas = {
 			}
 		}
 		modifier = {
-			factor = 5
+			factor = 2.0
+			num_of_ports = 20
+		}
+		modifier = {
+			factor = 2.0
+			num_of_cities = 50
+		}
+		modifier = {
+			factor = 1000
 			OR = {
-				tag = CAS
 				tag = POR
+				tag = CAS
 				tag = SPA
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				tag = GBR
+				tag = NED
+				tag = ENG
+				tag = FRA
+				tag = KUR
 			}
 		}
 		modifier = {
