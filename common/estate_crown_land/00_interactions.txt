@@ -5,7 +5,12 @@ interaction = {
 
     trigger = {
         crown_land_share = 10
-		legitimacy = 10
+		if = {
+			limit = {
+				government = monarchy
+			}
+			legitimacy = 10
+		}
 		prestige = 10
         NOT = { num_of_rebel_armies = 1 }
 		NOT = { num_of_rebel_controlled_provinces = 1 }
@@ -33,7 +38,12 @@ interaction = {
 			limit = { crown_land_share = 80 }
 			add_years_of_income = 1.25
 		}
-		add_legitimacy = -10
+		if = {
+			limit = {
+				government = monarchy
+			}
+			add_legitimacy = -10
+		}
 		add_prestige = -10
         custom_tooltip = ESTATES_SALE_OF_TITLES_DESC
         give_estate_land_share_gigantic = { estate = all }
