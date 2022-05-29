@@ -36,3 +36,65 @@ rex_player_war = {
 
 	province_warscore_cost = 0.25
 }
+
+rex_colonialism_rush_wave_1 = {
+	potential = {
+		OR = {
+			technology_group = western
+			full_idea_group = expansion_ideas
+			has_institution = new_world_i
+		}
+		num_of_ports = 1
+		NOT = { has_country_modifier = rex_colonialism_rush_wave_2 }
+		NOT = { has_country_modifier = rex_colonialism_rush_wave_3 }
+		NOT = { is_colonial_nation = yes }
+	}
+
+	trigger = {
+	    is_year = 1455
+	}
+	
+	colonists = 1
+	range = 0.33
+}
+
+rex_colonialism_rush_wave_2 = {
+	potential = {
+	    OR = {
+			technology_group = western
+			full_idea_group = expansion_ideas
+			has_institution = new_world_i
+		}
+		num_of_ports = 1
+		is_year = 1492
+		NOT = { has_country_modifier = rex_colonialism_rush_wave_3 }
+		NOT = { is_colonial_nation = yes }
+	}
+
+	trigger = { 
+	    is_year = 1492
+	}
+	
+	colonists = 2
+	range = 0.66
+}
+
+rex_colonialism_rush_wave_3 = {
+	potential = {
+		OR = {
+			technology_group = western
+			full_idea_group = expansion_ideas
+			has_institution = new_world_i
+		}
+		num_of_ports = 1
+		is_year = 1620
+		NOT = { is_colonial_nation = yes }
+	}
+
+	trigger = {
+	    is_year = 1620
+	}
+	
+	colonists = 3
+	range = 1
+}
