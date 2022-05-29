@@ -577,9 +577,6 @@ base_values = {
 	tolerance_of_heretics_capacity = 3
 	tolerance_of_heathens_capacity = 3
 	#Additions
-	monarch_admin_power = 1
-	monarch_diplomatic_power = 1
-	monarch_military_power = 1
 	country_admin_power = 1
 	country_diplomatic_power = 1
 	country_military_power = 1
