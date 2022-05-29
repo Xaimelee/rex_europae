@@ -2,9 +2,10 @@ monarch_power = DIP
 
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
-	trade_efficiency = 0.2
-
-
+	#trade_efficiency = 0.2
+	#Additions
+	development_cost = -0.05
+	global_prosperity_growth = 0.05
 	yearly_corruption = -0.05
 }
 
