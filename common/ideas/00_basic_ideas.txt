@@ -989,6 +989,7 @@ expansion_ideas = {
 	}
 	faster_colonists = {
 		colonists = 1
+		colonist_placement_chance = 0.03
 		num_accepted_cultures = 2
 	}
 	improved_shipyards  = {
