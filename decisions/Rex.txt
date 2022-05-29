@@ -6,15 +6,15 @@ country_decisions = {
 		}
 		allow = {
 			was_player = yes
-			war_exhaustion = 5
+			any_country = { 
+				ai = no
+				offensive_war_with = ROOT
+			}
 			is_in_war = {
 				defender_leader = ROOT
-				war_score = -50
 			}
 			NOT = {
-				capital_scope = {
-					controlled_by = ROOT
-				}
+				war_score = -50
 			}
 		}
 		effect = {
