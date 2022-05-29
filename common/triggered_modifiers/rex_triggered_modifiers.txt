@@ -39,11 +39,6 @@ rex_player_war = {
 
 rex_colonialism_rush_wave_1 = {
 	potential = {
-		OR = {
-			technology_group = western
-			full_idea_group = expansion_ideas
-			has_institution = new_world_i
-		}
 		num_of_ports = 1
 		NOT = { has_country_modifier = rex_colonialism_rush_wave_2 }
 		NOT = { has_country_modifier = rex_colonialism_rush_wave_3 }
@@ -51,7 +46,12 @@ rex_colonialism_rush_wave_1 = {
 	}
 
 	trigger = {
-	    is_year = 1455
+	    is_year = 1492
+		OR = {
+			technology_group = western
+			full_idea_group = expansion_ideas
+			has_institution = new_world_i
+		}
 	}
 	
 	colonists = 1
@@ -60,19 +60,19 @@ rex_colonialism_rush_wave_1 = {
 
 rex_colonialism_rush_wave_2 = {
 	potential = {
-	    OR = {
-			technology_group = western
-			full_idea_group = expansion_ideas
-			has_institution = new_world_i
-		}
 		num_of_ports = 1
-		is_year = 1492
+		is_year = 1525
 		NOT = { has_country_modifier = rex_colonialism_rush_wave_3 }
 		NOT = { is_colonial_nation = yes }
 	}
 
 	trigger = { 
-	    is_year = 1492
+	    is_year = 1525
+		OR = {
+			technology_group = western
+			full_idea_group = expansion_ideas
+			has_institution = new_world_i
+		}
 	}
 	
 	colonists = 2
@@ -81,18 +81,18 @@ rex_colonialism_rush_wave_2 = {
 
 rex_colonialism_rush_wave_3 = {
 	potential = {
+		num_of_ports = 1
+		is_year = 1600
+		NOT = { is_colonial_nation = yes }
+	}
+
+	trigger = {
+	    is_year = 1600
 		OR = {
 			technology_group = western
 			full_idea_group = expansion_ideas
 			has_institution = new_world_i
 		}
-		num_of_ports = 1
-		is_year = 1620
-		NOT = { is_colonial_nation = yes }
-	}
-
-	trigger = {
-	    is_year = 1620
 	}
 	
 	colonists = 3
