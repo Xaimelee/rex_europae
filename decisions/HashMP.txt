@@ -124,15 +124,6 @@ country_decisions = {
 		}
 		allow = {
 			ai = no
-			if = {
-				limit = {
-					OR = {
-						current_age = age_of_absolutism
-						current_age = age_of_revolutions
-					}
-				}
-				absolutism = 5
-			}
 			legitimacy = 25
 			adm_power = 100
 			custom_trigger_tooltip = {
@@ -142,15 +133,6 @@ country_decisions = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					OR = {
-						current_age = age_of_absolutism
-						current_age = age_of_revolutions
-					}
-				}
-				add_absolutism = -5
-			}
 			add_legitimacy = -25
 			add_adm_power = -100
 			custom_tooltip = h_reorganize_estates_effect_tooltip
