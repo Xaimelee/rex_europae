@@ -1484,7 +1484,10 @@ global_trade = {
 manufactories = {
 
 	bonus = {
-		global_trade_goods_size_modifier = 0.1
+		#global_trade_goods_size_modifier = 0.1
+		#Additions
+		build_cost = -0.05
+		production_efficiency = 0.05
 	}
 
 	trade_company_efficiency = 1.25
