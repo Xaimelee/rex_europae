@@ -283,6 +283,10 @@ development_scaled = {
 
 capital_city = {
 	fort_level = 1
+	#Additions
+	local_tax_modifier = 0.33
+	province_trade_power_modifier = 0.33
+	local_defensiveness = 0.1
 }
 
 
