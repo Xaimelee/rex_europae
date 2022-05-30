@@ -104,6 +104,15 @@ can_improve_tax = {
 			}
 		}
 	}
+	condition = {
+		tooltip = "rex_disabled_development_tooltip"
+		potential = {
+			has_reform = native_basic_reform
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_improve_production = {
@@ -121,6 +130,15 @@ can_improve_production = {
 			}
 		}
 	}
+	condition = {
+		tooltip = "rex_disabled_development_tooltip"
+		potential = {
+			has_reform = native_basic_reform
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 can_improve_manpower = {
@@ -136,6 +154,15 @@ can_improve_manpower = {
 					has_province_modifier = rex_develop_cooldown
 				}
 			}
+		}
+	}
+	condition = {
+		tooltip = "rex_disabled_development_tooltip"
+		potential = {
+			has_reform = native_basic_reform
+		}
+		allow = {
+			always = no
 		}
 	}
 }
