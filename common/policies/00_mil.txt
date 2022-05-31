@@ -12,8 +12,8 @@ privy_council_establishment_act = {
 		full_idea_group = defensive_ideas
 	}
 
-	shock_damage_received = -0.075
-	fire_damage_received = -0.075
+	merc_maintenance_modifier = -0.33
+	mercenary_cost = -0.33
 	
 	ai_will_do = {
 		factor = 0.6
@@ -26,7 +26,7 @@ privy_council_establishment_act = {
 }
 
 the_mercenary_registration_act = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = spy_ideas
@@ -38,7 +38,7 @@ the_mercenary_registration_act = {
 		full_idea_group = quantity_ideas
 	}
 
-	land_maintenance_modifier = -0.1
+	mercenary_manpower = 0.50
 	
 	ai_will_do = {
 		factor = 1
@@ -61,8 +61,7 @@ the_provincial_taxation_system = {
 		full_idea_group = quantity_ideas
 	}
 	
-	land_morale = 0.05
-	reinforce_cost_modifier = -0.1
+	land_morale = 0.075
 	
 	ai_will_do = {
 		factor = 1
@@ -75,7 +74,7 @@ the_provincial_taxation_system = {
 }
 
 the_mining_act = {
-	monarch_power = ADM
+	monarch_power = DIP
 
 	potential = {
 		has_idea_group = expansion_ideas
@@ -86,8 +85,7 @@ the_mining_act = {
 		full_idea_group = quality_ideas
 	}
 	
-	recover_army_morale_speed = 0.05
-	reinforce_speed = 0.15
+	global_trade_goods_size_modifier = 0.1
 	
 	ai_will_do = {
 		factor = 1
@@ -99,7 +97,7 @@ the_mining_act = {
 }
 
 the_liquor_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	
 	potential = {
@@ -112,8 +110,7 @@ the_liquor_act = {
 		full_idea_group = administrative_ideas
 	}	
 	
-	yearly_army_professionalism = 0.005
-	prestige_from_land = 0.33
+	infantry_cost = -0.15
 
 	ai_will_do = {
 		factor = 0.6
@@ -121,7 +118,7 @@ the_liquor_act = {
 }
 
 horse_artillery = {
-	monarch_power = ADM
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = offensive_ideas
@@ -132,7 +129,9 @@ horse_artillery = {
 		full_idea_group = offensive_ideas
 		full_idea_group = economic_ideas
 	}
-	artillery_cost = -0.15
+	
+	fire_damage = 0.10
+	shock_damage = 0.10
 
 	ai_will_do = {
 		factor = 1
@@ -234,7 +233,8 @@ modern_siege_weapons = {
 		full_idea_group = offensive_ideas
 	}
 	
-	artillery_power = 0.1
+	siege_ability = 0.20
+	artillery_bonus_vs_fort = 1
 
 	ai_will_do = {
 		factor = 1
@@ -311,7 +311,7 @@ the_garrison_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	general_cost = -0.25
+	leader_cost = -0.25
 
 	ai_will_do = {
 		factor = 1
@@ -343,7 +343,7 @@ military_zeal_act = {
 }
 
 field_priests = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = administrative_ideas
@@ -355,7 +355,8 @@ field_priests = {
 		full_idea_group = quantity_ideas
 	}
 
-	manpower_recovery_speed = 0.25
+	land_attrition = -0.15
+	reinforce_speed = 0.10
 	
 	ai_will_do = {
 		factor = 1.2
@@ -366,44 +367,44 @@ field_priests = {
 	}
 }
 
-# pen_rely_on_sword_act = {
-# 	monarch_power = ADM
-# 	potential = {
-# 		has_idea_group = administrative_ideas
-# 		has_idea_group = plutocracy_ideas
-# 	}
+pen_rely_on_sword_act = {
+	monarch_power = ADM
+	potential = {
+		has_idea_group = administrative_ideas
+		has_idea_group = plutocracy_ideas
+	}
 	
-# 	allow = {
-# 		full_idea_group = administrative_ideas
-# 		full_idea_group = plutocracy_ideas
-# 	}
+	allow = {
+		full_idea_group = administrative_ideas
+		full_idea_group = plutocracy_ideas
+	}
 	
-# 	mercenary_manpower = 0.50
+	administrative_efficiency = 0.05
 	
-# 	ai_will_do = {
-# 		factor = 1
-# 		modifier = {
-# 			factor = 0
-# 			NOT = { army_size_percentage = 0.9 }
-# 		}			
-# 		modifier = {
-# 			factor = 1.5
-# 			army_size_percentage = 1.1
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			army_size_percentage = 1.5
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			army_size_percentage = 2
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			army_size_percentage = 2.5
-# 		}
-# 	}
-# }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { army_size_percentage = 0.9 }
+		}			
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 1.1
+		}
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 1.5
+		}
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 2
+		}
+		modifier = {
+			factor = 1.5
+			army_size_percentage = 2.5
+		}
+	}
+}
 
 # local_army_organisation = {
 # 	monarch_power = MIL
@@ -485,7 +486,8 @@ the_tenures_abolition_act = {
 		full_idea_group = aristocracy_ideas
 	}
 
-	trade_efficiency = 0.15
+	caravan_power = 0.15
+	placed_merchant_power = 5
 		
 	ai_will_do = {
 		factor = 0.6
@@ -534,7 +536,7 @@ the_maritime_intelligencer_unit = {
 	}	
 	
 	galley_power = 0.15
-	galley_cost = -0.15
+	galley_cost = -0.20
 	
 	ai_will_do = {
 		factor = 1
@@ -558,8 +560,7 @@ the_nautic_education_act = {
 		full_idea_group = innovativeness_ideas
 	}	
 	
-	artillery_fire = 0.25
-	artillery_bonus_vs_fort = 1
+	backrow_artillery_damage = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -604,7 +605,7 @@ zealous_captains = {
 }
 
 autonomous_estates = {
-	monarch_power = MIL
+	monarch_power = ADM
 	
 	potential = {
 		has_idea_group = influence_ideas
@@ -616,7 +617,7 @@ autonomous_estates = {
 		full_idea_group = aristocracy_ideas
 	}	
 	
-	global_manpower_modifier = 0.15
+	vassal_income = 0.25
 	vassal_forcelimit_bonus = 1
 	
 	ai_will_do = {
@@ -731,8 +732,8 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	land_morale = 0.05
-	global_manpower_modifier = 0.10
+	army_tradition = 0.5
+	land_forcelimit_modifier = 0.10
 	
 	ai_will_do = {
 		factor = 1
@@ -752,7 +753,7 @@ foreign_conscription_centers = {
 		full_idea_group = offensive_ideas
 	}	
 	
-	discipline = 0.025
+	global_manpower = 15
 	
 	ai_will_do = {
 		factor = 1
@@ -780,7 +781,7 @@ foreign_conscription_centers = {
 }
 
 guerilla_warfare = {
-	monarch_power = ADM
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = influence_ideas
@@ -792,8 +793,8 @@ guerilla_warfare = {
 		full_idea_group = quantity_ideas
 	}	
 
-	vassal_forcelimit_bonus = 1
-	vassal_income = 0.25
+	vassal_forcelimit_bonus = 0.5
+	reduced_liberty_desire = 10
 	
 	ai_will_do = {
 		factor = 0.8
@@ -812,8 +813,8 @@ weapon_quality_standards = {
 		full_idea_group = quality_ideas
 	}
 	
-	fire_damage = 0.1
-	shock_damage = 0.1
+	drill_decay_modifier = -0.30
+	drill_gain_modifier = 0.50
 	
 	ai_will_do = {
 		factor = 2
@@ -837,7 +838,7 @@ noble_loyalty_act = {
 		full_idea_group = spy_ideas
 	}
 
-	cavalry_power = 0.15
+	global_manpower_modifier = 0.20
 	
 	ai_will_do = {
 		factor = 1
@@ -902,106 +903,104 @@ noble_loyalty_act = {
 # 	}
 # }
 
-# military_allotment_act = {
-# 	monarch_power = MIL
+military_allotment_act = {
+	monarch_power = MIL
 
-# 	potential = {
-# 		has_idea_group = spy_ideas
-# 		has_idea_group = plutocracy_ideas
-# 	}
+	potential = {
+		has_idea_group = spy_ideas
+		has_idea_group = plutocracy_ideas
+	}
 	
-# 	allow = {
-# 		full_idea_group = spy_ideas
-# 		full_idea_group = plutocracy_ideas
-# 	}
+	allow = {
+		full_idea_group = spy_ideas
+		full_idea_group = plutocracy_ideas
+	}
 
-# 	backrow_artillery_damage = 0.15
+	mercenary_discipline = 0.05
 
-# 	ai_will_do = {
-# 		factor = 0.8
-# 	}
-# }
+	ai_will_do = {
+		factor = 0.8
+	}
+}
 
-# unified_army_command = {
-# 	monarch_power = DIP
+unified_army_command = {
+	monarch_power = MIL
 	
-# 	potential = {
-# 		has_idea_group = plutocracy_ideas
-# 		has_idea_group = influence_ideas
-# 	}
+	potential = {
+		has_idea_group = plutocracy_ideas
+		has_idea_group = influence_ideas
+	}
 	
-# 	allow = {
-# 		full_idea_group = plutocracy_ideas
-# 		full_idea_group = influence_ideas
-# 	}	
+	allow = {
+		full_idea_group = plutocracy_ideas
+		full_idea_group = influence_ideas
+	}	
 	
-# 	vassal_forcelimit_bonus = 1
-# 	reduced_liberty_desire = 10
+	land_morale = 0.075
 	
-# 	ai_will_do = {
-# 		factor = 1
-# 		modifier = {
-# 			factor = 0
-# 			NOT = { vassal = 1 }
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			vassal = 2
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			vassal = 3
-# 		}			
-# 		modifier = {
-# 			factor = 1.5
-# 			vassal = 4
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			vassal = 5
-# 		}	
-# 	}
-# }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { vassal = 1 }
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 2
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 3
+		}			
+		modifier = {
+			factor = 1.5
+			vassal = 4
+		}
+		modifier = {
+			factor = 1.5
+			vassal = 5
+		}	
+	}
+}
 
-# trade_kontor_network = {
-# 	monarch_power = MIL
-# 	potential = {
-# 		has_idea_group = plutocracy_ideas
-# 		has_idea_group = trade_ideas
-# 	}
+trade_kontor_network = {
+	monarch_power = DIP
+	potential = {
+		has_idea_group = plutocracy_ideas
+		has_idea_group = trade_ideas
+	}
 	
-# 	allow = {
-# 		full_idea_group = plutocracy_ideas
-# 		full_idea_group = trade_ideas
-# 	}
+	allow = {
+		full_idea_group = plutocracy_ideas
+		full_idea_group = trade_ideas
+	}
 	
-# 	mercenary_cost = -0.33
-# 	merc_maintenance_modifier = -0.33
+	global_ship_cost = -0.15
 
-# 	ai_will_do = {
-# 		factor = 0.6
-# 		modifier = {
-# 			factor = 0
-# 			NOT = { trade_income_percentage = 0.1 }
-# 		}			
-# 		modifier = {
-# 			factor = 1.5
-# 			trade_income_percentage = 0.2
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			trade_income_percentage = 0.3
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			trade_income_percentage = 0.4
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			trade_income_percentage = 0.5
-# 		}
-# 	}
-# }
+	ai_will_do = {
+		factor = 0.6
+		modifier = {
+			factor = 0
+			NOT = { trade_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			trade_income_percentage = 0.5
+		}
+	}
+}
 
 deserteur_act = {
 	monarch_power = DIP
