@@ -1069,18 +1069,17 @@ administrative_ideas = {
 	}
 	organised_mercenary_payment = {
 		global_tax_modifier = 0.20
-		adm_tech_cost_modifier = -0.10
 	}
 	organised_mercenary_recruitment = {
 		reinforce_speed = 0.1
 		land_attrition = -0.1
 	}
 	bookkeeping = {
-		stability_cost_modifier = -0.25
+		stability_cost_modifier = -0.10
 		no_stability_loss_on_monarch_death = yes
 	}
 	civil_servants = {
-		same_culture_advisor_cost = -0.2
+		same_culture_advisor_cost = -0.15
 	}
 	administrative_efficiency_idea = {
 		state_maintenance_modifier = -0.25
