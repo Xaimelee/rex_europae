@@ -571,8 +571,8 @@ mandatory_service = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	caravan_power = 0.10
-	trade_steering = 0.20
+	caravan_power = 0.15
+	trade_steering = 0.10
 
 	ai_will_do = {
 		factor = 0
