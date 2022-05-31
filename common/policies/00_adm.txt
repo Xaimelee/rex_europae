@@ -10,7 +10,7 @@ the_combination_act = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	fire_damage_received = -0.15
+	fire_damage_received = -0.10
 
 	ai_will_do = {
 		factor = 1
@@ -88,38 +88,38 @@ the_court_of_wards_and_liveries = {
 	}
 }
 
-# formalized_measures = {
-# 	monarch_power = ADM
+formalized_measures = {
+	monarch_power = ADM
 
 
-# 	potential = {
-# 		has_idea_group = plutocracy_ideas
-# 		has_idea_group = economic_ideas
-# 	}
+	potential = {
+		has_idea_group = plutocracy_ideas
+		has_idea_group = economic_ideas
+	}
 	
-# 	allow = {
-# 		full_idea_group = plutocracy_ideas
-# 		full_idea_group = economic_ideas
-# 	}	
+	allow = {
+		full_idea_group = plutocracy_ideas
+		full_idea_group = economic_ideas
+	}	
 
-# 	infantry_cost = -0.15
+	artillery_cost = -0.15
 
-# 	ai_will_do = {
-# 		factor = 1
-# 		modifier = {
-# 			factor = 0.75
-# 			NOT = { tax_income_percentage = 0.25 }
-# 		}			
-# 		modifier = {
-# 			factor = 1.5
-# 			tax_income_percentage = 0.45
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			tax_income_percentage = 0.7
-# 		}
-# 	}
-# }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0.75
+			NOT = { tax_income_percentage = 0.25 }
+		}			
+		modifier = {
+			factor = 1.5
+			tax_income_percentage = 0.45
+		}
+		modifier = {
+			factor = 1.5
+			tax_income_percentage = 0.7
+		}
+	}
+}
 
 agricultural_cultivations = {
 	monarch_power = MIL
@@ -135,7 +135,7 @@ agricultural_cultivations = {
 	}		
 	
 	manpower_recovery_speed = 0.10
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.10
 
 	ai_will_do = {
 		factor = 1
@@ -178,7 +178,7 @@ the_espionage_act = {
 	}
 
 	technology_cost = -0.05
-	innovativeness_gain = 0.25
+	innovativeness_gain = 0.5
 	
 	ai_will_do = {
 		factor = 0.6
@@ -223,8 +223,7 @@ the_royal_commission_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	prestige = 0.5
-	yearly_absolutism = 1
+	all_power_cost = -0.025
 	
 	ai_will_do = {
 		factor = 0.6
@@ -326,7 +325,8 @@ the_spy_discovery_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	infantry_fire = 0.25
+	fire_damage_received = -0.075
+	shock_damage_received = -0.075
 
 	ai_will_do = {
 		factor = 0.6 #Keep in mind lower stab cost is probably pretty weak given this costs ADM...
@@ -374,46 +374,51 @@ the_spy_discovery_act = {
 # 	}
 # }
 
-# the_tolerance_act = {
-# 	monarch_power = ADM
+the_tolerance_act = {
+	monarch_power = ADM
 
-# 	potential = {
-# 		has_idea_group = religious_ideas
-# 		has_idea_group = plutocracy_ideas
-# 	}
+	potential = {
+		has_idea_group = religious_ideas
+		has_idea_group = plutocracy_ideas
+	}
 	
-# 	allow = {
-# 		full_idea_group = religious_ideas
-# 		full_idea_group = plutocracy_ideas
-# 	}
+	allow = {
+		full_idea_group = religious_ideas
+		full_idea_group = plutocracy_ideas
+	}
 
-# 	global_tax_modifier = 0.15
-# 	prestige_decay = -0.01
+	global_tax_modifier = 0.10
+	papal_influence = 1
+	devotion = 0.25
+	monthly_fervor_increase = 0.1
+	church_power_modifier = 0.1
+	yearly_patriarch_authority = 0.1
+	monthly_piety = 0.0005
 
-# 	ai_will_do = {
-# 		factor = 1
-# 		modifier = {
-# 			factor = 0
-# 			religious_unity = 1
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			NOT = { religious_unity = 0.8 }
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			NOT = { religious_unity = 0.6 }
-# 		}			
-# 		modifier = {
-# 			factor = 1.5
-# 			NOT = { religious_unity = 0.4 }
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			NOT = { religious_unity = 0.2 }
-# 		}			
-# 	}
-# }
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 0
+			religious_unity = 1
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { religious_unity = 0.6 }
+		}			
+		modifier = {
+			factor = 1.5
+			NOT = { religious_unity = 0.4 }
+		}
+		modifier = {
+			factor = 1.5
+			NOT = { religious_unity = 0.2 }
+		}			
+	}
+}
 
 vassal_taxation_policy = {
 	monarch_power = ADM
@@ -468,7 +473,7 @@ the_pioneer_policy = {
 		full_idea_group = expansion_ideas
 	}
 
-	land_forcelimit_modifier = 0.20
+	manpower_recovery_speed = 0.20
 	
 	ai_will_do = {
 		factor = 0.6
@@ -489,8 +494,7 @@ land_inheritance_act = {
 		full_idea_group = quantity_ideas
 	}
 
-	infantry_cost = -0.1
-	land_forcelimit_modifier = 0.1
+	land_forcelimit_modifier = 0.2
 	
 	ai_will_do = {
 		factor = 1
@@ -529,7 +533,7 @@ the_witchcraft_act = {
 		full_idea_group = aristocracy_ideas
 	}
 
-	cavalry_shock = 0.25
+	cavalry_power = 0.15
 
 	ai_will_do = {
 		factor = 1
@@ -574,25 +578,25 @@ the_witchcraft_act = {
 }
 
 
-# the_education_act = {
-# 	monarch_power = MIL
+the_education_act = {
+	monarch_power = MIL
 
-# 	potential = {
-# 		has_idea_group = innovativeness_ideas
-# 		has_idea_group = plutocracy_ideas
-# 	}
+	potential = {
+		has_idea_group = innovativeness_ideas
+		has_idea_group = plutocracy_ideas
+	}
 	
-# 	allow = {
-# 		full_idea_group = innovativeness_ideas
-# 		full_idea_group = plutocracy_ideas
-# 	}
+	allow = {
+		full_idea_group = innovativeness_ideas
+		full_idea_group = plutocracy_ideas
+	}
 
-# 	mercenary_discipline = 0.15
+	fire_damage = 0.15
 
-# 	ai_will_do = {
-# 		factor = 0.8
-# 	}
-# }
+	ai_will_do = {
+		factor = 0.8
+	}
+}
 
 
 policy_of_calculate_delay = {
@@ -607,7 +611,7 @@ policy_of_calculate_delay = {
 		full_idea_group = diplomatic_ideas
 	}
 	
-	global_tax_modifier = 0.15
+	global_tax_modifier = 0.10
 	global_missionary_strength = 0.02
 
 	ai_will_do = {
@@ -651,7 +655,6 @@ the_loyalty_act = {
 	core_creation = -0.15
 	province_warscore_cost = -0.10
  
-
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -739,7 +742,7 @@ vassal_obligations_act = {
 }
 
 foreign_advisors = {
-	monarch_power = ADM
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = influence_ideas
@@ -752,7 +755,7 @@ foreign_advisors = {
 	}	
 	
 	dip_advisor_cost = -0.2
-	vassal_forcelimit_bonus = 1
+	vassal_forcelimit_bonus = 0.5
 	
 	ai_will_do = {
 		factor = 1
@@ -772,8 +775,7 @@ vassal_integration_act = {
 		full_idea_group = administrative_ideas
 	}	
 	
-	global_tax_modifier = 0.15
-	global_own_trade_power = 0.10
+	global_tax_modifier = 0.20
 	
 	ai_will_do = {
 		factor = 1
@@ -974,7 +976,7 @@ the_transportation_act = {
 		full_idea_group = economic_ideas
 	}	
 	
-	naval_maintenance_modifier = -0.15
+	heavy_ship_cost = -0.15
 	
 	ai_will_do = {
 		factor = 0.6
@@ -1114,7 +1116,7 @@ the_licensing_of_the_press_act = {
 		full_idea_group = aristocracy_ideas
 	}
 
-	global_tax_modifier = 0.15
+	global_tax_modifier = 0.10
 	reinforce_cost_modifier = -0.10
 	
 	ai_will_do = {
@@ -1197,7 +1199,7 @@ the_statute_of_monopolies = {
 		full_idea_group = economic_ideas
 	}
 
-	trade_efficiency = 0.1
+	global_trade_power = 0.10
 	center_of_trade_upgrade_cost = -0.25
 
 	ai_will_do = {
@@ -1246,45 +1248,46 @@ the_statute_of_monopolies = {
 	}
 }
 
-# taxation_with_representation = {
-# 	monarch_power = DIP
-# 	potential = {
-# 		has_idea_group = expansion_ideas
-# 		has_idea_group = plutocracy_ideas
-# 	}
+taxation_with_representation = {
+	monarch_power = MIL
+	potential = {
+		has_idea_group = expansion_ideas
+		has_idea_group = plutocracy_ideas
+	}
 	
-# 	allow = {
-# 		full_idea_group = expansion_ideas
-# 		full_idea_group = plutocracy_ideas
-# 	}
+	allow = {
+		full_idea_group = expansion_ideas
+		full_idea_group = plutocracy_ideas
+	}
 	
-# 	global_trade_goods_size_modifier = 0.10
+	special_unit_forcelimit = 0.20
+	infantry_fire = 0.15
 
-# 	ai_will_do = {
-# 		factor = 1
+	ai_will_do = {
+		factor = 1
 		
-# 		modifier = {
-# 			factor = 0.6
-# 			NOT = { production_income_percentage = 0.1 }
-# 		}			
-# 		modifier = {
-# 			factor = 1.5
-# 			production_income_percentage = 0.2
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			production_income_percentage = 0.3
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			production_income_percentage = 0.4
-# 		}
-# 		modifier = {
-# 			factor = 1.5
-# 			production_income_percentage = 0.5
-# 		}
-# 	}
-# }
+		modifier = {
+			factor = 0.6
+			NOT = { production_income_percentage = 0.1 }
+		}			
+		modifier = {
+			factor = 1.5
+			production_income_percentage = 0.2
+		}
+		modifier = {
+			factor = 1.5
+			production_income_percentage = 0.3
+		}
+		modifier = {
+			factor = 1.5
+			production_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.5
+			production_income_percentage = 0.5
+		}
+	}
+}
 
 # cultural_understanding = {
 # 	monarch_power = ADM
@@ -1386,9 +1389,7 @@ the_banking_system = {
 		full_idea_group = trade_ideas
 	}
 
-	global_trade_power = 0.15
-	innovativeness_gain = 0.25
-
+	dip_tech_cost_modifier = -0.15
 
 	ai_will_do = {
 		factor = 1.5
@@ -1465,7 +1466,7 @@ anti_heresy_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	infantry_shock = 0.25
+	discipline = 0.025
 
 	ai_will_do = {
 		factor = 1
