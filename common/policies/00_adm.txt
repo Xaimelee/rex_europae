@@ -611,7 +611,7 @@ policy_of_calculate_delay = {
 		full_idea_group = diplomatic_ideas
 	}
 	
-	global_tax_modifier = 0.10
+	same_culture_advisor_cost = -0.10
 	global_missionary_strength = 0.02
 
 	ai_will_do = {
@@ -775,7 +775,8 @@ vassal_integration_act = {
 		full_idea_group = administrative_ideas
 	}	
 	
-	global_tax_modifier = 0.20
+	tax_income = 48
+	vassal_income = 0.10
 	
 	ai_will_do = {
 		factor = 1
