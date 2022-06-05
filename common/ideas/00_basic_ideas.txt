@@ -1027,24 +1027,23 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		free_adm_policy = 1
-		possible_adm_policy = 1
+		monarch_admin_power = 1
 	}
 
 	adaptability = {
-		merchants = 1
-		caravan_power = 0.10
-	}
-	organised_mercenary_payment = {
-		global_tax_modifier = 0.20
-	}
-	organised_mercenary_recruitment = {
-		reinforce_speed = 0.1
-		land_attrition = -0.1
-	}
-	bookkeeping = {
 		stability_cost_modifier = -0.10
 		no_stability_loss_on_monarch_death = yes
+	}
+	organised_mercenary_payment = {
+		global_tax_modifier = 0.10
+	}
+	organised_mercenary_recruitment = {
+		yearly_corruption = -0.25
+	}
+	bookkeeping = {
+		max_absolutism = 10
+		yearly_absolutism = 0.5
+		all_estate_loyalty_equilibrium = 0.05
 	}
 	civil_servants = {
 		same_culture_advisor_cost = -0.15
