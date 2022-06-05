@@ -1029,18 +1029,18 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
+		no_stability_loss_on_monarch_death = yes
 		monarch_admin_power = 1
 	}
 
-	adaptability = {
-		stability_cost_modifier = -0.10
-		no_stability_loss_on_monarch_death = yes
+	organised_mercenary_recruitment = {
+		yearly_corruption = -0.25
 	}
 	organised_mercenary_payment = {
 		global_tax_modifier = 0.10
 	}
-	organised_mercenary_recruitment = {
-		yearly_corruption = -0.25
+	adaptability = {
+		stability_cost_modifier = -0.10
 	}
 	bookkeeping = {
 		max_absolutism = 10
