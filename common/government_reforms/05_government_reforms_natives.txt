@@ -1,7 +1,7 @@
 native_basic_reform = {
 	basic_reform = yes
-	#native_mechanic = yes
-	#allow_migration = yes
+	native_mechanic = no #yes
+	allow_migration = no #yes
 	valid_for_new_country = no
 	allow_convert = yes
 	republican_name = yes
@@ -174,14 +174,14 @@ native_war_band_reform = {
 		land_forcelimit_modifier = 0.15
 		land_morale = 0.05
 	}
-	conditional = {
-		allow = { has_dlc = "Conquest of Paradise" }
-		allow_migration = yes
-		custom_attributes = {
-			enable_settled_mechanics = no
-			enable_tribal_grazing = yes
-		}
-	}
+	# conditional = {
+	# 	allow = { has_dlc = "Conquest of Paradise" }
+	# 	allow_migration = yes
+	# 	custom_attributes = {
+	# 		enable_settled_mechanics = no
+	# 		enable_tribal_grazing = yes
+	# 	}
+	# }
 
 	ai = {
 		factor = 0.5 #generic
@@ -227,14 +227,14 @@ native_seasonal_travel_reform = {
 		migration_cost = -0.25
 		tribal_development_growth = 0.02
 	}
-	conditional = {
-		allow = { has_dlc = "Conquest of Paradise" }
-		allow_migration = yes
-		custom_attributes = {
-			enable_settled_mechanics = no
-			enable_tribal_grazing = yes
-		}
-	}
+	# conditional = {
+	# 	allow = { has_dlc = "Conquest of Paradise" }
+	# 	allow_migration = yes
+	# 	custom_attributes = {
+	# 		enable_settled_mechanics = no
+	# 		enable_tribal_grazing = yes
+	# 	}
+	# }
 
 	ai = {
 		factor = 0.5
@@ -273,14 +273,14 @@ native_settle_down_reform = {
 		add_tribal_land_cost = 2.0
 		governing_capacity_modifier = -0.25
 	}
-	conditional = {
-		allow = { has_dlc = "Conquest of Paradise" }
-		allow_migration = no
-		custom_attributes = {
-			enable_settled_mechanics = yes
-			enable_tribal_grazing = no
-		}
-	}
+	# conditional = {
+	# 	allow = { has_dlc = "Conquest of Paradise" }
+	# 	allow_migration = no
+	# 	custom_attributes = {
+	# 		enable_settled_mechanics = yes
+	# 		enable_tribal_grazing = no
+	# 	}
+	# }
 	removed_effect = {
 		add_stability = -1
 	}
