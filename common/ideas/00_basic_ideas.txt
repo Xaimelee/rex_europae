@@ -992,13 +992,6 @@ expansion_ideas = {
 	ai_will_do = {
 		factor = 0.48
 		modifier = {
-			factor = 10
-			OR = {
-				has_idea_group = exploration_ideas
-				is_colonial_nation = yes
-			}
-		}
-		modifier = {
 			factor = 2.0
 			num_of_ports = 20
 		}
@@ -1012,44 +1005,22 @@ expansion_ideas = {
 				tag = POR
 				tag = CAS
 				tag = SPA
+				tag = GBR
+				tag = NED
+				tag = ENG
 			}
 		}
 		modifier = {
 			factor = 2
 			OR = {
-				tag = GBR
-				tag = NED
-				tag = ENG
 				tag = FRA
 				tag = KUR
 			}
 		}
 		modifier = {
-			factor = 10
-			NOT = { has_dlc = "Third Rome" } # Has siberian frontier instead
+			factor = 2
 			tag = RUS
-			num_of_cities = 20
-			any_owned_province = {
-				has_empty_adjacent_province = yes
-			}
-		}
-		modifier = {
-			factor = 0
-			NOT = { has_idea_group = exploration_ideas }
-			NOT = { is_colonial_nation = yes }
-			NOT = {
-				any_owned_province = {
-					has_empty_adjacent_province = yes
-				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			NOT = {
-				technology_group = western
-				technology_group = eastern
-				technology_group = muslim
-			}
+			num_of_cities = 50
 		}
 	}
 }
