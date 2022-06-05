@@ -24,7 +24,7 @@ native_ferocity = 2
 
 native_hostileness = 1 
 
-tribal_owner = --- #REXEUROPAEWIPE = NAH
+#tribal_owner = --- #REXEUROPAEWIPE = NAH
 
 
 
