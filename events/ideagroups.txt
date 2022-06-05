@@ -5146,7 +5146,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		is_at_war = yes
 		num_of_colonies = 1
 	}
@@ -5181,7 +5181,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		num_of_colonies = 1
 	}
 
@@ -5215,7 +5215,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		NOT = { has_country_modifier = "excellent_administration" }
 		NOT = { has_country_modifier = "corrupt_viceroys" }
 		any_country = {
@@ -5246,7 +5246,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		any_country = {
 			is_colonial_nation_of = ROOT
 		}
@@ -5292,7 +5292,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		num_of_colonies = 1
 		has_country_flag = NF_peacenik
 		any_owned_province = {
@@ -5328,7 +5328,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		num_of_colonies = 1
 		any_owned_province = {
 			is_colony = yes 
@@ -5365,7 +5365,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		num_of_colonies = 1
 		any_owned_province = {
 			is_colony = yes 
@@ -5407,7 +5407,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		overseas_provinces_percentage = 0.05
 		religion_group = christian
 		any_owned_province = {
@@ -5447,7 +5447,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		num_of_colonies = 1
 		any_owned_province = {
 			is_colony = yes 
@@ -5485,7 +5485,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_idea_group = exploration_ideas
+		has_idea_group = expansion_ideas #has_idea_group = exploration_ideas
 		num_of_colonies = 1
 		any_owned_province = {
 			is_colony = yes 
