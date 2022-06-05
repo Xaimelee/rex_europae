@@ -527,12 +527,12 @@ encouragement_of_merchant_navy = {
 commercial_embassies = {
 	monarch_power = ADM
 	potential = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = humanist_ideas #diplomatic_ideas
 		has_idea_group = expansion_ideas
 	}
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
+		full_idea_group = humanist_ideas #diplomatic_ideas
 		full_idea_group = expansion_ideas
 	}
 	
@@ -562,12 +562,12 @@ commercial_embassies = {
 mandatory_service = {
 	monarch_power = DIP
 	potential = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = humanist_ideas #diplomatic_ideas
 		has_idea_group = plutocracy_ideas
 	}
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
+		full_idea_group = humanist_ideas #diplomatic_ideas
 		full_idea_group = plutocracy_ideas
 	}
 
@@ -583,12 +583,12 @@ mandatory_service = {
 professional_diplomatic_corps = {
 	monarch_power = ADM
 	potential = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = humanist_ideas #diplomatic_ideas
 		has_idea_group = quality_ideas
 	}
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
+		full_idea_group = humanist_ideas #diplomatic_ideas
 		full_idea_group = quality_ideas
 	}
 	
@@ -683,12 +683,12 @@ professional_diplomatic_corps = {
 	
 # 	potential = {
 # 		has_idea_group = humanist_ideas
-# 		has_idea_group = diplomatic_ideas
+# 		has_idea_group = humanist_ideas #diplomatic_ideas
 # 	}
 	
 # 	allow = {
 # 		full_idea_group = humanist_ideas
-# 		full_idea_group = diplomatic_ideas
+# 		full_idea_group = humanist_ideas #diplomatic_ideas
 # 	}	
 	
 # 	global_unrest = -2
@@ -872,8 +872,7 @@ the_integrated_administration_act = {
 		full_idea_group = quality_ideas
 	}	
 	
-	cavalry_shock = 0.25
-	cavalry_flanking = 1
+	shock_damage = 0.15
 	
 	ai_will_do = {
 		factor = 1
@@ -932,12 +931,12 @@ record_keeping_act = {
 	monarch_power = MIL
 	potential = {
 		has_idea_group = administrative_ideas
-		has_idea_group = diplomatic_ideas
+		has_idea_group = humanist_ideas #diplomatic_ideas
 	}
 	
 	allow = {
 		full_idea_group = administrative_ideas
-		full_idea_group = diplomatic_ideas
+		full_idea_group = humanist_ideas #diplomatic_ideas
 	}
 
 	global_manpower_modifier = 0.20
@@ -1086,12 +1085,12 @@ black_chamber_act = {
 diplomatic_defence_act = {
 	monarch_power = ADM
 	potential = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = humanist_ideas #diplomatic_ideas
 		has_idea_group = defensive_ideas
 	}
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
+		full_idea_group = humanist_ideas #diplomatic_ideas
 		full_idea_group = defensive_ideas
 	}
 
@@ -1294,12 +1293,12 @@ the_naval_supremacy_act = {
 	
 # 	potential = {
 # 		has_idea_group = theocracy_gov_ideas
-# 		has_idea_group = diplomatic_ideas
+# 		has_idea_group = humanist_ideas #diplomatic_ideas
 # 	}
 	
 # 	allow = {
 # 		full_idea_group = theocracy_gov_ideas
-# 		full_idea_group = diplomatic_ideas
+# 		full_idea_group = humanist_ideas #diplomatic_ideas
 # 	}
 	
 # 	papal_influence = 1
@@ -1405,12 +1404,12 @@ the_naval_supremacy_act = {
 	
 # 	potential = {
 # 		has_idea_group = indigenous_ideas
-# 		has_idea_group = diplomatic_ideas
+# 		has_idea_group = humanist_ideas #diplomatic_ideas
 # 	}
 	
 # 	allow = {
 # 		full_idea_group = indigenous_ideas
-# 		full_idea_group = diplomatic_ideas
+# 		full_idea_group = humanist_ideas #diplomatic_ideas
 # 	}
 	
 # 	diplomatic_reputation = 1

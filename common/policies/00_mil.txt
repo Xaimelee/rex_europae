@@ -429,12 +429,12 @@ pen_rely_on_sword_act = {
 underhanded_diplomacy_act = {
 	monarch_power = MIL
 	potential = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = humanist_ideas #diplomatic_ideas
 		has_idea_group = offensive_ideas
 	}
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
+		full_idea_group = humanist_ideas #diplomatic_ideas
 		full_idea_group = offensive_ideas
 	}
 	
@@ -477,12 +477,12 @@ the_tenures_abolition_act = {
 	monarch_power = DIP
 
 	potential = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = humanist_ideas #diplomatic_ideas
 		has_idea_group = aristocracy_ideas
 	}
 	
 	allow = {
-		full_idea_group = diplomatic_ideas
+		full_idea_group = humanist_ideas #diplomatic_ideas
 		full_idea_group = aristocracy_ideas
 	}
 
@@ -1231,12 +1231,12 @@ deserteur_act = {
 
 # 	potential = {
 # 		has_idea_group = horde_gov_ideas
-# 		has_idea_group = diplomatic_ideas
+# 		has_idea_group = humanist_ideas #diplomatic_ideas
 # 	}
 	
 # 	allow = {
 # 		full_idea_group = horde_gov_ideas
-# 		full_idea_group = diplomatic_ideas
+# 		full_idea_group = humanist_ideas #diplomatic_ideas
 # 	}
 
 # 	shock_damage = 0.1
