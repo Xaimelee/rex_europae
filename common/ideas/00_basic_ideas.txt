@@ -1174,8 +1174,7 @@ influence_ideas = {
 	}
 
 	bonus = {
-		reduced_stab_impacts = yes
-		all_estate_loyalty_equilibrium = 0.05
+		monarch_diplomatic_power = 1
 	}
 
 	integrated_elites = {
