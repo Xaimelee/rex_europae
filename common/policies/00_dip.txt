@@ -1062,7 +1062,7 @@ the_foreign_support_act = {
 # }
 
 black_chamber_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = spy_ideas
@@ -1075,7 +1075,7 @@ black_chamber_act = {
 	}
 	
 	global_rebel_suppression_efficiency = 1
-	global_autonomy = -0.1
+	infantry_power = 0.1
 
 	ai_will_do = {
 		factor = 0.6
