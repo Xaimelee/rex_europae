@@ -287,6 +287,10 @@ colonial_governor = {
 			factor = 0
 			owner = { is_colonial_nation = yes }
 		}
+		modifier = {
+			factor = 1
+			owner = { has_idea_group = expansion_ideas }
+		}
 	}
 	
 	ai_will_do = {
