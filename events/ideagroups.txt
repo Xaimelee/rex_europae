@@ -2559,7 +2559,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = influence_ideas #has_idea_group = diplomatic_ideas
 		NOT = {	has_country_modifier =  "cabinet_dynamism" }
 	}
 
@@ -2586,7 +2586,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = influence_ideas #has_idea_group = diplomatic_ideas
 		NOT = {	has_country_modifier =  "government_corruption" }
 	}
 
@@ -2617,7 +2617,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = influence_ideas #has_idea_group = diplomatic_ideas
 		is_at_war = no
 		any_neighbor_country = {
 			is_at_war = no
@@ -2650,7 +2650,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = influence_ideas #has_idea_group = diplomatic_ideas
 		NOT = {	has_country_modifier =  "incompetent_fabrication" }
 	}
 
@@ -2682,7 +2682,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = influence_ideas #has_idea_group = diplomatic_ideas
 		NOT = {	has_country_modifier =  "brilliant_diplomat" }
 	}
 
@@ -2738,7 +2738,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = influence_ideas #has_idea_group = diplomatic_ideas
 		any_neighbor_country = {
 			religion = root
 			NOT = {
@@ -2774,7 +2774,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = influence_ideas #has_idea_group = diplomatic_ideas
 		NOT = {	has_country_modifier =  "improved_dip_reputation" }
 		NOT = {	has_country_modifier =  "reduced_dip_reputation" }
 	}
@@ -2802,7 +2802,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = influence_ideas #has_idea_group = diplomatic_ideas
 		NOT = {	has_country_modifier =  "improved_dip_reputation" }
 		NOT = {	has_country_modifier =  "reduced_dip_reputation" }
 	}
@@ -2830,7 +2830,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_idea_group = diplomatic_ideas
+		has_idea_group = influence_ideas #has_idea_group = diplomatic_ideas
 		NOT = {	has_country_modifier =  "dip_jusitified_demands" }
 	}
 	
