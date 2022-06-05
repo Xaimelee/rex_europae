@@ -427,7 +427,7 @@ pen_rely_on_sword_act = {
 # }
 
 underhanded_diplomacy_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 	potential = {
 		has_idea_group = humanist_ideas #diplomatic_ideas
 		has_idea_group = offensive_ideas
@@ -438,8 +438,7 @@ underhanded_diplomacy_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	land_maintenance_modifier = -0.05
-	reinforce_speed = 0.33
+	reinforce_speed = 0.25
 
 	ai_will_do = {
 		factor = 0.6
