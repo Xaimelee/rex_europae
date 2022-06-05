@@ -1176,6 +1176,7 @@ influence_ideas = {
 	}
 
 	bonus = {
+		reduced_stab_impacts = yes
 		monarch_diplomatic_power = 1
 	}
 
