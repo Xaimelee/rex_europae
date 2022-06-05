@@ -328,7 +328,7 @@ navigator = {
 			owner = { NOT = { num_of_colonists = 1 } }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 1
 			owner = { has_idea_group = expansion_ideas }
 		}
 	}
