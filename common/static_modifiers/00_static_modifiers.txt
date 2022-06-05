@@ -1250,7 +1250,7 @@ high_army_professionalism = {
 	#Additions
 	discipline = 0.05
 	movement_speed = 0.1
-	special_unit_forcelimit = 0.25
+	special_unit_forcelimit = 0.10
 	army_tradition_from_battle = 0.25
 }
 
