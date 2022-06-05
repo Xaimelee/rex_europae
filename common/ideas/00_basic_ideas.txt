@@ -373,10 +373,7 @@ diplomatic_ideas = {
 	}
 
 	trigger = {
-		OR = {
-			was_player = yes
-			is_colonial_nation = yes
-		}
+		always = no
 	}
 
 	benign_diplomats = {
@@ -1070,50 +1067,99 @@ administrative_ideas = {
 }
 
 humanist_ideas = {
-	category = ADM
+	category = DIP # ADM
 
-	trigger = {
-		always = no
-	}
+	# trigger = {
+	# 	always = no
+	# }
+
+	# bonus = {
+	# 	same_culture_advisor_cost = -0.15
+	# }
+
+	# tolerance_idea = {
+	# 	tolerance_heretic = 2
+	# 	tolerance_of_heretics_capacity = 1
+	# }
+	# local_traditions = {
+	# 	global_unrest = -2
+	# 	monthly_splendor = 3
+	# }
+	# cultural_ties = {
+	# 	num_accepted_cultures = 2
+	# 	promote_culture_cost = -0.50
+	# }
+	# indirect_rule = {
+	# 	garrison_growth = 0.25
+	# 	defensiveness = 0.10
+	# }
+	# benevolence = {
+	# 	tolerance_heathen = 2
+	# 	tolerance_of_heathens_capacity = 1
+	# }
+	# humanist_tolerance = {
+	# 	global_trade_goods_size_modifier = 0.10
+	# 	global_monthly_devastation = -0.10
+	# }
+	# ecumenism = {
+	# 	land_morale = 0.05
+	# 	reserves_organisation = 0.25
+	# }
+	# ai_will_do = {
+	# 	factor = 0.9
+	# 	modifier = {
+	# 		factor = 0
+	# 		has_idea_group = religious_ideas
+	# 	}
+	# }
 
 	bonus = {
-		same_culture_advisor_cost = -0.15
+		build_cost = -0.1
+	}
+
+	trigger = {
+		OR = {
+			was_player = yes
+			is_colonial_nation = yes
+		}
 	}
 
 	tolerance_idea = {
-		tolerance_heretic = 2
-		tolerance_of_heretics_capacity = 1
+		global_own_trade_power = 0.20
+		center_of_trade_upgrade_cost = -0.25
 	}
 	local_traditions = {
-		global_unrest = -2
-		monthly_splendor = 3
+		ae_impact = -0.20
+		years_of_nationalism = -5
 	}
 	cultural_ties = {
-		num_accepted_cultures = 2
-		promote_culture_cost = -0.50
+		reinforce_speed = 0.10
+		global_ship_repair = 0.25
 	}
 	indirect_rule = {
-		garrison_growth = 0.25
-		defensiveness = 0.10
+		monthly_splendor = 3
 	}
 	benevolence = {
-		tolerance_heathen = 2
-		tolerance_of_heathens_capacity = 1
+		global_regiment_recruit_speed = -0.10
+		global_ship_recruit_speed = -0.25
 	}
 	humanist_tolerance = {
-		global_trade_goods_size_modifier = 0.10
-		global_monthly_devastation = -0.10
+		governing_capacity = 200
 	}
-	ecumenism = {
-		land_morale = 0.05
-		reserves_organisation = 0.25
+	ecumenism  = {
+		global_trade_goods_size_modifier = 0.1
 	}
 
 	ai_will_do = {
-		factor = 0.9
+		factor = 0.67
+
 		modifier = {
-			factor = 0
-			has_idea_group = religious_ideas
+			factor = 1
+			is_part_of_hre = yes
+		}
+		modifier = {
+			factor = 2
+			governing_capacity_percentage = 100
 		}
 	}
 }

@@ -1,6 +1,6 @@
 ﻿l_english:
  spy_ideas:0 "Mercenary Ideas"
- diplomatic_ideas:0 "Infrastructure Ideas"
+ humanist_ideas:0 "Infrastructure Ideas"
  aristocracy_ideas:0 "Traditional Ideas"
  plutocracy_ideas:0 "Professional Ideas"
  MODIFIER_NO_STABILITY_LOSS_ON_MONARCH_DEATH:0 "No Stability loss on Monarch death."
