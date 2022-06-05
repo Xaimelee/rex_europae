@@ -494,6 +494,8 @@ trade_ideas = {
 	category = DIP
 
 	bonus = {
+		free_dip_policy = 1
+		possible_dip_policy = 1
 		merchants = 1
 	}
 
