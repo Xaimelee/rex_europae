@@ -107,7 +107,9 @@ can_improve_tax = {
 	condition = {
 		tooltip = "rex_disabled_development_tooltip"
 		potential = {
-			has_reform = native_basic_reform
+			FROM = {
+				has_reform = native_basic_reform
+			}
 		}
 		allow = {
 			always = no
@@ -133,7 +135,9 @@ can_improve_production = {
 	condition = {
 		tooltip = "rex_disabled_development_tooltip"
 		potential = {
-			has_reform = native_basic_reform
+			FROM = {
+				has_reform = native_basic_reform
+			}
 		}
 		allow = {
 			always = no
@@ -159,7 +163,9 @@ can_improve_manpower = {
 	condition = {
 		tooltip = "rex_disabled_development_tooltip"
 		potential = {
-			has_reform = native_basic_reform
+			FROM = {
+				has_reform = native_basic_reform
+			}
 		}
 		allow = {
 			always = no
