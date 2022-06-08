@@ -352,8 +352,8 @@ rex_estate_church_council = {
 	icon = privilege_recruit_minister
 	max_absolutism = -10
 	land_share = 0
-	loyalty = 0.1
-	influence = 0.1
+	loyalty = 0
+	influence = 0.10
 	is_valid = {  
 
 	}						
@@ -375,15 +375,16 @@ rex_estate_church_council = {
 
 	benefits = {
 		legitimacy = 1
+		global_tax_modifier = -0.10
 	}
 	penalties = {
 
 	}
 	mechanics = {
-		exempt_from_seize_land
+		
 	}
 	modifier_by_land_ownership = {
-	}					
+	}				
 	ai_will_do = { 
 		factor = 1
 	}
