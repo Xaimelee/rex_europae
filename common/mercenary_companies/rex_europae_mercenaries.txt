@@ -1,4 +1,4 @@
-rex_europae_company_1 = {
+rex_inf_company_1 = {
 	regiments_per_development = 1
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
@@ -6,12 +6,11 @@ rex_europae_company_1 = {
 	trigger = {
 	}
 	modifier = {
-		discipline = 0.03
-		recover_army_morale_speed = 0.05
+		shock_damage_received = -0.075
 	}
 }
 
-rex_europae_company_2 = {
+rex_inf_company_2 = {
 	regiments_per_development = 1
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
@@ -20,11 +19,10 @@ rex_europae_company_2 = {
 	}
 	modifier = {
 		land_attrition = -0.33
-		shock_damage_received = -0.05
 	}
 }
 
-rex_europae_company_3 = {
+rex_inf_company_3 = {
 	regiments_per_development = 1
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
@@ -33,11 +31,10 @@ rex_europae_company_3 = {
 	}
 	modifier = {
 		infantry_shock = 0.15
-		army_tradition_from_battle = 0.33
 	}
 }
 
-rex_europae_company_4 = {
+rex_inf_company_4 = {
 	regiments_per_development = 1
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
@@ -46,11 +43,10 @@ rex_europae_company_4 = {
 	}
 	modifier = {
 		infantry_fire = 0.1
-		fire_damage = 0.05
 	}
 }
 
-rex_europae_company_5 = {
+rex_inf_company_5 = {
 	regiments_per_development = 1
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
@@ -58,12 +54,37 @@ rex_europae_company_5 = {
 	trigger = {
 	}
 	modifier = {
-		reinforce_speed = -0.25
-		land_morale = -0.10
+		land_morale = -0.15
 	}
 }
 
-rex_europae_company_6 = {
+rex_inf_company_6 = {
+	regiments_per_development = 1
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		full_idea_group = spy_ideas
+	}
+	modifier = {
+		land_morale = 0.05
+	}
+}
+
+rex_inf_company_7 = {
+	regiments_per_development = 1
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	trigger = {
+		full_idea_group = spy_ideas
+	}
+	modifier = {
+		discipline = 0.03
+	}
+}
+
+rex_cav_company_1 = {
 	regiments_per_development = 1
 	cavalry_weight = 1.0
 	artillery_weight = 0.0
@@ -72,12 +93,11 @@ rex_europae_company_6 = {
 	}
 	modifier = {
 		cavalry_power = 0.10
-		fire_damage_received = -0.05
 		cav_to_inf_ratio = 1
 	}
 }
 
-rex_europae_company_7 = {
+rex_cav_company_2 = {
 	regiments_per_development = 1
 	cavalry_weight = 1.0
 	artillery_weight = 0.0
@@ -85,8 +105,35 @@ rex_europae_company_7 = {
 	trigger = {
 	}
 	modifier = {
-		loot_amount = 0.50
-		movement_speed = 0.10
+		loot_amount = 1
+		cav_to_inf_ratio = 1
+	}
+}
+
+rex_cav_company_3 = {
+	regiments_per_development = 1
+	cavalry_weight = 1.0
+	artillery_weight = 0.0
+	cost_modifier = 0.75
+	trigger = {
+		full_idea_group = spy_ideas
+	}
+	modifier = {
+		fire_damage_received = -0.075
+		cav_to_inf_ratio = 1
+	}
+}
+
+rex_cav_company_4 = {
+	regiments_per_development = 1
+	cavalry_weight = 1.0
+	artillery_weight = 0.0
+	cost_modifier = 0.75
+	trigger = {
+		full_idea_group = spy_ideas
+	}
+	modifier = {
+		cavalry_fire = 0.15
 		cav_to_inf_ratio = 1
 	}
 }
