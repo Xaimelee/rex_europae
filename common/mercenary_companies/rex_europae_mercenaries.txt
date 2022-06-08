@@ -2,7 +2,7 @@ rex_europae_company_1 = {
 	regiments_per_development = 1
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
-	cost_modifier = 0.75
+	cost_modifier = 1
 	trigger = {
 	}
 	modifier = {
@@ -15,7 +15,7 @@ rex_europae_company_2 = {
 	regiments_per_development = 1
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
-	cost_modifier = 0.75
+	cost_modifier = 1
 	trigger = {
 	}
 	modifier = {
@@ -28,7 +28,7 @@ rex_europae_company_3 = {
 	regiments_per_development = 1
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
-	cost_modifier = 0.75
+	cost_modifier = 1
 	trigger = {
 	}
 	modifier = {
@@ -41,7 +41,7 @@ rex_europae_company_4 = {
 	regiments_per_development = 1
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
-	cost_modifier = 0.75
+	cost_modifier = 1
 	trigger = {
 	}
 	modifier = {
