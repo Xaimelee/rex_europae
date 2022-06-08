@@ -66,7 +66,7 @@ rex_estate_nobles_standing_army = {
 
 	} 			
 	benefits = {
-		special_unit_forcelimit = 0.25
+		special_unit_forcelimit = 0.10
 	}		
 	penalties = { 
 
