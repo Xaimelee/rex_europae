@@ -3,16 +3,16 @@ rex_estate_nobles_horse_stock = {
 	icon = privilege_raise_host
 	max_absolutism = -10
 	land_share = 10
-	loyalty = -0.1
-	influence = 0.2
+	loyalty = -0.15
+	influence = 0.05
 	is_valid = {  
 
 	}						
 	can_select = {  
-		legitimacy = 10
+		mil_power = 100
 	} 					
 	on_granted = {  
-		add_legitimacy = -10
+		add_mil_power = -100
 	} 					
 	can_revoke = {  
 
@@ -25,15 +25,16 @@ rex_estate_nobles_horse_stock = {
 	}
 	benefits = {
 		cavalry_power = 0.1
+		cavalry_cost = -0.05
 	}			
 	penalties = { 
 
 	}
 	mechanics = {
-		exempt_from_seize_land
+
 	}
 	modifier_by_land_ownership = {
-		cavalry_cost = -0.1
+
 	}					
 	ai_will_do = { 
 		factor = 1
