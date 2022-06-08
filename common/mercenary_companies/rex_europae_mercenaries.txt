@@ -59,7 +59,7 @@ rex_europae_company_5 = {
 	}
 	modifier = {
 		reinforce_speed = -0.25
-		land_morale = -0.05
+		land_morale = -0.10
 	}
 }
 
