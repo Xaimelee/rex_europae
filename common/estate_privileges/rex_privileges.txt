@@ -440,6 +440,7 @@ rex_estate_church_religious_colonies = {
 		OR = {
 			full_idea_group = expansion_ideas
 			full_idea_group = religious_ideas
+			num_of_colonists = 1
 		}
 	}						
 	can_select = {  
@@ -459,8 +460,9 @@ rex_estate_church_religious_colonies = {
 	} 	
 
 	benefits = {
-		expel_minorities_cost = -0.33
-		native_uprising_chance = 1
+		global_colonial_growth = 10
+		expel_minorities_cost = -0.25
+		native_uprising_chance = 2
 	}
 	penalties = { 
 
@@ -469,7 +471,7 @@ rex_estate_church_religious_colonies = {
 		
 	}
 	modifier_by_land_ownership = {
-		global_colonial_growth = 25
+
 	}					
 	ai_will_do = { 
 		factor = 1
