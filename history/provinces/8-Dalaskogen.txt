@@ -16,6 +16,9 @@ discovered_by = eastern
 discovered_by = western
 extra_cost = 10
 
+#Additions
+fort_15th = yes
+
 add_permanent_province_modifier = {
 	name = stora_kopparberget_modifier
 	duration = -1
