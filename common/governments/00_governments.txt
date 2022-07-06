@@ -37,6 +37,8 @@ monarchy = {
 				confucian_bureaucracy
 				musa_rule
 				mossi_federal_kingdom
+				#Additions
+				rex_swedish_nobility_reform
 			}
 		}
 		hereditary_vs_nobility = {
