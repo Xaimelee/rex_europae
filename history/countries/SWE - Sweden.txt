@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = rex_swedish_nobility_reform
 technology_group = western
 unit_type = western
 primary_culture = swedish
