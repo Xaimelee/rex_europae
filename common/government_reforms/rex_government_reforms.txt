@@ -1,5 +1,5 @@
 rex_swedish_nobility_reform = {
-	icon = "commander_king_reform"
+	icon = "soldiers_7"
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = yes
